@@ -4,10 +4,11 @@ import Home from "./routes/home";
 import Profile from "./routes/profile";
 import Login from "./routes/login";
 import CreateAccount from "./routes/create-account";
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
 import { useEffect, useState } from "react";
 import LoadingScreen from "./components/loading-screen";
+import { auth } from "./routes/firebase";
 
 const router = createBrowserRouter([
   /* 라우터를 생성하여 RouteProvider로 보냄 */
@@ -48,21 +49,27 @@ const GlobalStyles = createGlobalStyle` /* GlobalStyles를 만들어 모든 페�
   }
 `;
 
+const Wrapper = styled.div`
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+`;
+
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const init = async () => {
-    // wait for firebase
+    await auth.authStateReady(); /* 인증상태 준비 확인 */
     setIsLoading(false);
   };
   useEffect(() => {
     init();
   });
   return (
-    <>
+    <Wrapper>
       <GlobalStyles /> {/* GlobalStyles 적용*/}
       {isLoading ? <LoadingScreen /> : <RouterProvider router={router} />}
       {/* router를 받아 해당 라우트를 보여줌 */}
-    </>
+    </Wrapper>
   );
 }
 
