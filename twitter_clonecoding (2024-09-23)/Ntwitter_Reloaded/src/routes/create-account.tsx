@@ -1,47 +1,15 @@
+import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useState } from "react";
-import { styled } from "styled-components";
+import { auth } from "./firebase";
+import { Link, useNavigate } from "react-router-dom";
+import { FirebaseError } from "firebase/app";
+import { Form, Error, Input, Switcher, Title, Wrapper } from "../components/auth-components";
+import GithubButton from "../components/github-btn";
 
-const Wrapper = styled.div`
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 420px;
-  padding: 50px 0px;
-`;
 
-const Title = styled.h1`
-  font-size: 42px;
-`;
-
-const Form = styled.form`
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 100%;
-`;
-
-const Input = styled.input`
-    padding: 10px 20px;
-    border-radius: 50px;
-    border: none;
-    width: 100%;
-    font-size: 16px;
-    &[type="submit"] { /* input이면서 type가 submit인 것 */
-        cursor: pointer;
-        &:hover { /* 마우스 커서가 올라가면 */
-            opacity:0.8;
-        }
-    }
-`;
-
-const Error = styled.span`
-    font-weight:600;
-    color:tomato;
-`;
 
 export default function CreateAccount() {
+  const navigate = useNavigate(); // 특정 라우터로 보냄
   const [isLoading, setLoading] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -61,14 +29,27 @@ export default function CreateAccount() {
       setPassword(value);
     }
   };
-  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault(); /* a나 submit태그는 누르게 되면 href를 통해 이동하거나 창이 새로고침됨, 이를 막기위해 preventDefault()를 사용함*/
+    setError("");
+    if (isLoading || name === "" || email === "" || password == "") return; // 로딩중이거나 name, email, password중 하나가 빈 문자열이면 함수를 종료시킴
     try {
-      // create an account
-      // set the name of the user
-      // redirect to the homepage
+      setLoading(true);
+      const creadentials = await createUserWithEmailAndPassword(
+        auth,
+        email,
+        password
+      ); // auth(인증 서비스), 이메일, 패스워드를 받아 유저를 만듬
+      console.log(creadentials.user);
+      await updateProfile(creadentials.user, {
+        // 유저의 이름을 name으로 변경
+        displayName: name,
+      });
+      navigate("/"); // 홈화면으로 보냄
     } catch (e) {
-      // setError
+      if (e instanceof FirebaseError)
+        // instanceof를 통해 e가 FireBaseError 클래스인지 확인
+        setError(e.message);
     } finally {
       setLoading(false);
     }
@@ -77,7 +58,7 @@ export default function CreateAccount() {
   };
   return (
     <Wrapper>
-      <Title>Log into 𝕏</Title>
+      <Title>Join 𝕏</Title>
       <Form onSubmit={onSubmit}>
         <Input
           onChange={onChange}
@@ -109,6 +90,10 @@ export default function CreateAccount() {
         />
       </Form>
       {error !== "" ? <Error>{error}</Error> : null}
+      <Switcher> {/* 로그인 페이지에서 회원가입 페이지로 */}
+        Already have an account? <Link to="/login">Log In &rarr;</Link>
+      </Switcher>
+      <GithubButton />
     </Wrapper>
   );
 }

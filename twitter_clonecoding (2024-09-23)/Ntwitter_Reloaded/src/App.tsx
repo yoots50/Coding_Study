@@ -9,12 +9,17 @@ import reset from "styled-reset";
 import { useEffect, useState } from "react";
 import LoadingScreen from "./components/loading-screen";
 import { auth } from "./routes/firebase";
+import ProtectedRoute from "./components/protected-route";
 
 const router = createBrowserRouter([
   /* 라우터를 생성하여 RouteProvider로 보냄 */
   {
     path: "/" /* index주소로 들어가면 Layout 컴포넌트가 보여지게 됨 */,
-    element: <Layout />,
+    element: (
+      <ProtectedRoute> {/* 로그인 되지 않은 상태면 ProtectedRoute에 의해 로그인 화면으로 가게 됨 */}
+        <Layout />
+      </ProtectedRoute>
+    ),
     children: [
       /* Home과 Profile은 Layout 라우트 내부에서 render됨 */
       {
