@@ -10,13 +10,15 @@ import { useEffect, useState } from "react";
 import LoadingScreen from "./components/loading-screen";
 import { auth } from "./routes/firebase";
 import ProtectedRoute from "./components/protected-route";
+import ForgotPassword from "./routes/forgot-password";
 
 const router = createBrowserRouter([
   /* 라우터를 생성하여 RouteProvider로 보냄 */
   {
     path: "/" /* index주소로 들어가면 Layout 컴포넌트가 보여지게 됨 */,
     element: (
-      <ProtectedRoute> {/* 로그인 되지 않은 상태면 ProtectedRoute에 의해 로그인 화면으로 가게 됨 */}
+      <ProtectedRoute>
+        {/* 로그인 되지 않은 상태면 ProtectedRoute에 의해 로그인 화면으로 가게 됨 */}
         <Layout />
       </ProtectedRoute>
     ),
@@ -27,7 +29,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "profile" /* /profile으로 라우팅되면 Profile 라우트가 보임 */,
+        path: "/profile" /* /profile으로 라우팅되면 Profile 라우트가 보임 */,
         element: <Profile />,
       },
     ],
@@ -39,6 +41,10 @@ const router = createBrowserRouter([
   {
     path: "/create-account" /* create-account으로 라우팅되면 CreateAccount 라우트가 보임 */,
     element: <CreateAccount />,
+  },
+  {
+    path: "/forgot-password",
+    element: <ForgotPassword />,
   },
 ]);
 

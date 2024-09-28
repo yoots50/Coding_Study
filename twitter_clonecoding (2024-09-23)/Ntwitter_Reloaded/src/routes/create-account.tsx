@@ -1,12 +1,17 @@
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useState } from "react";
 import { auth } from "./firebase";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import { FirebaseError } from "firebase/app";
-import { Form, Error, Input, Switcher, Title, Wrapper } from "../components/auth-components";
+import {
+  Form,
+  Error,
+  Input,
+  Switcher,
+  Title,
+  Wrapper,
+} from "../components/auth-components";
 import GithubButton from "../components/github-btn";
-
-
 
 export default function CreateAccount() {
   const navigate = useNavigate(); // 특정 라우터로 보냄
@@ -90,8 +95,13 @@ export default function CreateAccount() {
         />
       </Form>
       {error !== "" ? <Error>{error}</Error> : null}
-      <Switcher> {/* 로그인 페이지에서 회원가입 페이지로 */}
+      <Switcher>
+        {" "}
+        {/* 로그인 페이지에서 회원가입 페이지로 */}
         Already have an account? <Link to="/login">Log In &rarr;</Link>
+      </Switcher>
+      <Switcher>
+      <Link to="/forgot-password">I forgot my Password</Link>
       </Switcher>
       <GithubButton />
     </Wrapper>

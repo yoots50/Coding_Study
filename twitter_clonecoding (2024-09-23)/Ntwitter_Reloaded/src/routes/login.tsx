@@ -72,9 +72,11 @@ export default function CreateAccount() {
       </Form>
       {error !== "" ? <Error>{error}</Error> : null}
       <Switcher>
-        {" "}
         {/* 회원가입 페이지에서 로그인 페이지로 */}
         Don't have an account? <Link to="/create-account">Create one &rarr;</Link>
+      </Switcher>
+      <Switcher>
+      <Link to="/forgot-password">I forgot my Password</Link>
       </Switcher>
       <GithubButton />
     </Wrapper>
