@@ -1,7 +1,7 @@
 // #3.6 과제 (스스로 만듬)
 
 import { sendPasswordResetEmail } from "firebase/auth";
-import { auth } from "./firebase";
+import { auth } from "../firebase";
 import { Form, Input, Wrapper } from "../components/auth-components";
 import { useState } from "react";
 import styled from "styled-components";
@@ -20,17 +20,17 @@ export default function ForgotPassword() {
       await sendPasswordResetEmail(auth, email); // auth와 email을 받아  비밀번호 초기화 이메일을 보냄
       setMsg("success!"); // 성공하면 이 문구를 띄움
     } catch (e) {
-        if (e instanceof FirebaseError) {
-            setMsg(e.message); // 에러가 났다면 에러문구 띄움
-        }
+      if (e instanceof FirebaseError) {
+        setMsg(e.message); // 에러가 났다면 에러문구 띄움
+      }
     }
-    
   };
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const {
       target: { name, value },
     } = e;
-    if (name === "email") { // 이메일 value을 받으면
+    if (name === "email") {
+      // 이메일 value을 받으면
       setEmail(value); // email을 value로 바꿈
     }
   };

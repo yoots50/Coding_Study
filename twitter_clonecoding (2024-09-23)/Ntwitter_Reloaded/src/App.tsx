@@ -8,7 +8,7 @@ import styled, { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
 import { useEffect, useState } from "react";
 import LoadingScreen from "./components/loading-screen";
-import { auth } from "./routes/firebase";
+import { auth } from "./firebase";
 import ProtectedRoute from "./components/protected-route";
 import ForgotPassword from "./routes/forgot-password";
 
@@ -57,6 +57,9 @@ const GlobalStyles = createGlobalStyle` /* GlobalStyles를 만들어 모든 페�
     background-color: black;
     color:white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  ::-webkit-scrollbar {
+    display:none;
   }
 `;
 

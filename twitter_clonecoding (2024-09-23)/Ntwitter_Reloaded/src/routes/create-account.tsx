@@ -1,6 +1,6 @@
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useState } from "react";
-import { auth } from "./firebase";
+import { auth } from "../firebase";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import { FirebaseError } from "firebase/app";
 import {
@@ -101,7 +101,7 @@ export default function CreateAccount() {
         Already have an account? <Link to="/login">Log In &rarr;</Link>
       </Switcher>
       <Switcher>
-      <Link to="/forgot-password">I forgot my Password</Link>
+        <Link to="/forgot-password">I forgot my Password</Link>
       </Switcher>
       <GithubButton />
     </Wrapper>
