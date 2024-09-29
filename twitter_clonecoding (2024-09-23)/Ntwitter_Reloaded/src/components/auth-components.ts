@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-// 공통적으로 쓰는 컴포넌트를 이쪽으로 옮김 
+// 공통적으로 쓰는 컴포넌트를 이쪽으로 옮김
 
 export const Wrapper = styled.div`
   height: 100%;
