@@ -81,12 +81,12 @@ export default function PostTweetForm() {
         userId: user.uid, // 유저 id 이 트윗을 삭제 할 때 트윗을 작성한 사람인지 확인해야 하기 때문
       }); // 새로운 document를 특정 collection에 생성
       if (file) {
-        const locationRef = ref(storage, `tweets/${user.uid}-${user.displayName}/${doc.id}`) // storage에 파일이 저장되는 경로 지정, 문서 id가 있어야 트윗이 삭제될 때 파일을 삭제하기 편함
+        const locationRef = ref(storage, `tweets/${user.uid}/${doc.id}`); // storage에 파일이 저장되는 경로 지정, 문서 id가 있어야 트윗이 삭제될 때 파일을 삭제하기 편함
         const result = await uploadBytes(locationRef, file);
         const url = await getDownloadURL(result.ref); // 업로드한 파일의 다운로드 경로를 만듬
         await updateDoc(doc, {
           photo: url,
-        }) // doc에 내용추가
+        }); // doc에 내용추가
         setTweet(""); // 트윗을 올리면 tweet, file 초기화
         setFile(null);
       }
@@ -114,7 +114,7 @@ export default function PostTweetForm() {
         type="file"
         id="file"
         accept="image/*"
-      />{" "}
+      />
       {/* 이미지 파일만 받음 (확장자는 상관 x) */}
       <SubmitBtn
         type="submit"
