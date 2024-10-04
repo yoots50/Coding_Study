@@ -1,6 +1,6 @@
 # 📖 Nwitter Reloaded (트위터 클론코딩) 𝕏
 
-노마드 코더 (https://nomadcoders.co/nwitter)의 강의를 보고 만든 트위터 클론코딩
+노마드 코더 (https://nomadcoders.co/nwitter) 의 강의를 보고 만든 트위터 클론코딩
 
 📖 $<$ 표시 된 것은 직접 만든 코드 챌린지임
 
