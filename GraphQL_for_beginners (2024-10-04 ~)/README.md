@@ -22,3 +22,7 @@
 
 ## #4.0 ~ #
 - Apollo Server: GraphqQL와 호환되는 오픈소스 서버
+- ApolloServer(): Apollo 서버를 만드는 함수로 typeDefs를 필요로 함
+- TypeDefs: Data들의 Type를 담은 것으로 무조건 Query 메소드를 필요로 함
+- Query: 유저에게 주는 Data를 담은 메소드로 유저가 데이터를 조회 할 수 있게함
+- Mutation: 유저가 서버로 줄 수 있는 Data를 담은 메소드로 유저가 데이터를 등록/수정/삭제 할 수 있게함
