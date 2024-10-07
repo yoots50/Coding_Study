@@ -1,5 +1,5 @@
 # 📖 GraphQL for Beginners 
-노마드 코더(NomadCoders)의 강의 (https://nomadcoders.co/graphql-for-beginners) 기반으로 GraphQL을 배움
+노마드 코더(NomadCoders)의 강의 (https://nomadcoders.co/graphql-for-beginners) 기반으로 GraphQL을 배움<br>
 📖 표시 된 것은 직접 만는 부분
 
 ## #1.0 ~ #1.2
