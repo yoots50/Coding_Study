@@ -54,9 +54,38 @@ let b : null = null
 ```
 let a = []
 ```
-8. unknown이라는 타입이 존재한다.
+8. unknown이라는 타입이 존재한다. API로 부터 받은 변수의 타입을 모르는 상황 등에 사용한다. 이때, 타입을 모르기때문에 typeof를 써주어야 한다.
 ```
+let a:unknown;
 
+if (typeof a === "number") {
+    let b = a + 1;
+}
+if (typeof a === "string") {
+    a.toUpperCase();
+}
+```
+9. void라는 타입이 존재한다. 이는 함수에만 적용되는 타입이며 함수가 아무런 반환값을 가지지 않을 때 void타입으로 인식된다.
+```
+function hello() {
+    console.log('x');
+}
+```
+1.  never라는 타입이 존재한다. 함수가 에러를 발생시키고 반환값을 가지지 않을 때, 또는 어떤 변수가 어느 타입도 아닐 때 사용된다.
+```
+funtion hello():never {
+    throw new Error("xxx")
+}
+funtion hello(name:string|number) {
+    if (typeof name === "string") {
+        name
+    } else if (typeof name === "number") {
+        name
+    } else {
+        name // 이변수는 자동적으로 never라는 타입을 가짐
+    }
+}
+- 
 ```
 ## #3.0 ~ #3.4
 
