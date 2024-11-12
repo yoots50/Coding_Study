@@ -109,6 +109,7 @@ funtion hello(name:string|number) {
     }
 }
 ```
+## #3.0 ~ #3.4
 
 - call signature: 코드 위에 마우스 커서를 올리면 나오는 것, call signature의 타입을 만들때에는 다움과같이 한다.
 call signature을 사용함으로써 함수가 어떻게 작동하는지 서술할 수 있다.
@@ -138,8 +139,42 @@ const Add = {
     (a: number)
 }
 ```
-## #3.0 ~ #3.4
 
+- Polymorphism: 다형성은 함수가 다른 여러가지 모양을 가지거나 overloading같이 여러개 파라미터를 가져올 수 있는 것들을 말한다.
+- concrete type: number, boolean, string과 같은 전형적인 타입
+- generic: 타입의 placeholder와 같은 개념, 어떤 타입을 지정해 줄 필요 없이 타입스크립트가 이를 알게함
+```TS
+type SuperPrint = {
+    <T>(arr: T[]): T // any를 써도 에러는 나지 않지만 타입을 잃어버리기에 쓰지않는 것이 좋음
+}
+
+const superPrint: SuperPrint = (arr) => arr[0];
+
+const a = superPrint([1, 2, 3, 4]); // 자동으로 타입이 정해짐
+const b = superPrint(["1", "2", "3", "4"]);
+const c = superPrint([true, false, true, false]);
+const d = superPrint([1, true, "1"]);
+``` 
+
+- generic은 타입을 생성, 확장, 코드를 저장할 수 있음
+```TS
+type Player<E> = {
+    name:string
+    extraInfo:E 
+}
+
+type NicoExtra = {
+    favFood:string
+}
+type NicoPlayer = Player<NicoExtra>
+
+const nico: NicoPlayer = {
+    name:"nico",
+    extraInfo: {
+        favFood:"kimchi"
+    }
+}
+```
 ## #4.0 ~ #4.5
 
 ## #5.0 ~ #5.8
