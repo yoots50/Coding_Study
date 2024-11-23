@@ -176,5 +176,47 @@ const nico: NicoPlayer = {
 }
 ```
 ## #4.0 ~ #4.5
+- 타입스크립트에는 private, protected, public 이라는 키워드가 존재하며 이는 프로퍼티 또는 메소드에 접근을 어느정도 허락할지를 결정한다.
+- private: 선언한 클래스 내에서 접근가능
+- protected: private의 접근범위 + 상속받은 클래스 내에서 접근가능
+- public: protected의 접근범위 + 인스턴스 내에서 접근가능
+```TS
+class Player { //  추상 클래스(abstract class): 다른 클래스가 상속받을 수 있는 클래스, 직접 새로운 인스턴스를 만들 수 없음
+    constructor (
+        private firstName:string,
+        private lastName:string,
+        public nickName: string,
 
+    ) {}
+
+const nico = new Player("nico", "las", "니꼬");
+
+nico.firstName // 이부분은 private이므로 에러가 뜸
+```
+- 추상 클래스(abstract class): 다른 클래스가 상속받을 수 있는 클래스, 직접 새로운 인스턴스를 만들 수 없다, 추상 클래스에는 추상 메소드를 만들 수 있으며 추상 메소드는 상속받는 클래스에서 구현되어야만 한다.
+```TS
+abstract class User { // 추상 클래스
+    constructor (
+        protected firstName:string,
+        protected lastName:string,
+        protected nickName: string,
+
+    ) {}
+    abstract getNickName():void // 추상 메소드
+    getFullName() { 
+        return `${this.firstName} ${this.lastName}`
+    }
+}
+
+class Player extends User { // Player가 User를 상속함, 상속 클래스
+    getNickName() {
+        console.log(this.nickName) // nickName이 private일 땐 에러발생
+    }
+}
+
+const nico = new Player("nico", "las", "니꼬");
+
+nico.getFullName()
+nico.firstName() // firstName이 protected로 보호를 받으므로 에러발생
+```
 ## #5.0 ~ #5.8
