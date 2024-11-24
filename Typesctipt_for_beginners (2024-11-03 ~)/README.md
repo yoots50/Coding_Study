@@ -2,6 +2,8 @@
 
 노마드 코더(NomadCoders)의 강의 (https://nomadcoders.co/typescript-for-beginners) 기반으로 Typescript를 배움
 
+📖 < 표시 된 것은 직접 만든 코드 챌린지임
+
 ## #1.1 ~ #1.5
 
 - Typescript는 강타입 언어로 JS와 같이 타입 안정성이 없는 언어에 비해 타입 안정성이 강하므로 생산성이 높고 버그 발생률도 현저히 낮다.
@@ -218,5 +220,50 @@ const nico = new Player("nico", "las", "니꼬");
 
 nico.getFullName()
 nico.firstName() // firstName이 protected로 보호를 받으므로 에러발생
+```
+- 📖 Dict 클래스에서 단어를 삭제, 업데이트 하는 메소드 추가, Word 클래스에서 단어를 추가 또는 수정, 단어를 출력하는 메소드 추가
+- 타입의 용도
+1. 타입을 어떠한 변수에 지정
+2. 타입의 별명(alias)을 지정
+3. 특정한 값만을 가지도록 제한
+```ts
+type Team = "red" | "blue" | "yellow" // 특정한 값만을 가지도록 설정
+type Health = 1 | 5 | 10
+type Nickname: string // 타입의 별명을 지정
+
+type Player = {
+    nickname:Nickname // 타입을 어떠한 변수에 지정
+    team:Team
+    health:Health
+}
+
+const nico: Player = {
+    nickname:"nico",
+    team:"red",
+    health:10
+}
+```
+- interface: 오브젝트의 모양을 특정하는 키워드, type과는 달리 오브젝트에만 쓸 수 있음, property를 축적할 수 있음
+```ts
+interface User {
+    name:string
+}
+
+interface User { // property가 축적됨
+    health:number
+}
+
+interface User {
+    lastName:string
+}
+
+interface Player extends User {
+}
+
+const nico : Player = {
+    name:"nico",
+    lastName:'n',
+    health:10
+}
 ```
 ## #5.0 ~ #5.8
