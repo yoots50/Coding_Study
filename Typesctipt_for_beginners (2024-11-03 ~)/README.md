@@ -111,10 +111,11 @@ funtion hello(name:string|number) {
     }
 }
 ```
+
 ## #3.0 ~ #3.4
 
 - call signature: 코드 위에 마우스 커서를 올리면 나오는 것, call signature의 타입을 만들때에는 다움과같이 한다.
-call signature을 사용함으로써 함수가 어떻게 작동하는지 서술할 수 있다.
+  call signature을 사용함으로써 함수가 어떻게 작동하는지 서술할 수 있다.
 
 ```TS
 type Add = (a:number, b:number) => number;
@@ -123,6 +124,7 @@ const add:Add = (a, b) => a + b; // call signature 적용
 ```
 
 - overloading: 함수가 여러개의 call signature를 가질 때 발생됨
+
 ```TS
 type Add = {
     (a:number, b:number) : number;
@@ -135,8 +137,10 @@ const add: Add = (a, b) => {
 
 }
 ```
+
 - 서로 다른 call signature의 parameter 개수가 다르면 나머지 parameter는 직접 타입을 지정해야 함
-``` TS
+
+```TS
 const Add = {
     (a: number)
 }
@@ -145,6 +149,7 @@ const Add = {
 - Polymorphism: 다형성은 함수가 다른 여러가지 모양을 가지거나 overloading같이 여러개 파라미터를 가져올 수 있는 것들을 말한다.
 - concrete type: number, boolean, string과 같은 전형적인 타입
 - generic: 타입의 placeholder와 같은 개념, 어떤 타입을 지정해 줄 필요 없이 타입스크립트가 이를 알게함
+
 ```TS
 type SuperPrint = {
     <T>(arr: T[]): T // any를 써도 에러는 나지 않지만 타입을 잃어버리기에 쓰지않는 것이 좋음
@@ -156,13 +161,14 @@ const a = superPrint([1, 2, 3, 4]); // 자동으로 타입이 정해짐
 const b = superPrint(["1", "2", "3", "4"]);
 const c = superPrint([true, false, true, false]);
 const d = superPrint([1, true, "1"]);
-``` 
+```
 
 - generic은 타입을 생성, 확장, 코드를 저장할 수 있음
+
 ```TS
 type Player<E> = {
     name:string
-    extraInfo:E 
+    extraInfo:E
 }
 
 type NicoExtra = {
@@ -177,11 +183,14 @@ const nico: NicoPlayer = {
     }
 }
 ```
+
 ## #4.0 ~ #4.5
+
 - 타입스크립트에는 private, protected, public 이라는 키워드가 존재하며 이는 프로퍼티 또는 메소드에 접근을 어느정도 허락할지를 결정한다.
 - private: 선언한 클래스 내에서 접근가능
 - protected: private의 접근범위 + 상속받은 클래스 내에서 접근가능
 - public: protected의 접근범위 + 인스턴스 내에서 접근가능
+
 ```TS
 class Player { //  추상 클래스(abstract class): 다른 클래스가 상속받을 수 있는 클래스, 직접 새로운 인스턴스를 만들 수 없음
     constructor (
@@ -195,7 +204,9 @@ const nico = new Player("nico", "las", "니꼬");
 
 nico.firstName // 이부분은 private이므로 에러가 뜸
 ```
+
 - 추상 클래스(abstract class): 다른 클래스가 상속받을 수 있는 클래스, 직접 새로운 인스턴스를 만들 수 없다, 추상 클래스에는 추상 메소드를 만들 수 있으며 추상 메소드는 상속받는 클래스에서 구현되어야만 한다.
+
 ```TS
 abstract class User { // 추상 클래스
     constructor (
@@ -205,7 +216,7 @@ abstract class User { // 추상 클래스
 
     ) {}
     abstract getNickName():void // 추상 메소드
-    getFullName() { 
+    getFullName() {
         return `${this.firstName} ${this.lastName}`
     }
 }
@@ -221,11 +232,14 @@ const nico = new Player("nico", "las", "니꼬");
 nico.getFullName()
 nico.firstName() // firstName이 protected로 보호를 받으므로 에러발생
 ```
+
 - 📖 Dict 클래스에서 단어를 삭제, 업데이트 하는 메소드 추가, Word 클래스에서 단어를 추가 또는 수정, 단어를 출력하는 메소드 추가
 - 타입의 용도
+
 1. 타입을 어떠한 변수에 지정
 2. 타입의 별명(alias)을 지정
 3. 특정한 값만을 가지도록 제한
+
 ```ts
 type Team = "red" | "blue" | "yellow" // 특정한 값만을 가지도록 설정
 type Health = 1 | 5 | 10
@@ -243,8 +257,10 @@ const nico: Player = {
     health:10
 }
 ```
-- interface: 오브젝트의 모양을 특정하는 키워드, type과는 달리 오브젝트에만 쓸 수 있음, property를 축적할 수 있음
-```ts
+
+- interface: 오브젝트의 모양을 특정하는 키워드, type과는 달리 오브젝트에만 쓸 수 있고 property를 축적할 수 있다.
+
+```TS
 interface User {
     name:string
 }
@@ -266,4 +282,64 @@ const nico : Player = {
     health:10
 }
 ```
+
+-추상 클래스를 interface로 바꾸면 JS로 컴파일되지 않고 사라지기에 더욱 가볍게 컴파일된다.
+
+```TS
+abstract class User {
+    constructor(
+        protected firstName:string,
+        protected lastName:string
+    ) {}
+    abstract sayHi(name:string):string
+    abstract fullName():string
+}
+
+class Player extends User {
+    fullName() {
+        return `${this.firstName} ${this.lastName}`
+    }
+    sayHi(name:string) {
+        return `Hello ${name}, My name is ${this.fullName()}.`
+    }
+}
+
+// 위의 추상 클래스를 interface로 바꾸면 아래와 같이 변한다.
+interface User {
+    firstName:string,
+    lastName:string,
+    sayHi(name:string):string
+    fullName():string
+}
+
+class Player implements User {
+    constructor(
+        public firstName:string, // interface를 상속할 땐 인스턴스를 public으로 밖에 못 만듬
+        public lastName:string
+    ) {}
+    fullName() {
+        return `${this.firstName} ${this.lastName}`
+    }
+    sayHi(name:string) {
+        return `Hello ${name}, My name is ${this.fullName()}.`
+    }
+}
+
+function makeUser(user:User):User {
+    return { // User는 인터페이스(타입)이기에 new User()같이 new를 사용하지 않고 그저 내용물을 넣어주기만 하면 됨
+        firstName:"nico",
+        lastName:"las",
+        fullName: () => "xx",
+        sayHi: (name) => "string"
+    }
+}
+
+makeUser({
+    firstName:"nico",
+    lastName:"las",
+    fullName: () => "xx",
+    sayHi: (name) => "string"
+})
+```
+
 ## #5.0 ~ #5.8
