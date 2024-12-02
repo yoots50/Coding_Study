@@ -234,6 +234,60 @@ nico.firstName() // firstName이 protected로 보호를 받으므로 에러발�
 ```
 
 - 📖 Dict 클래스에서 단어를 삭제, 업데이트 하는 메소드 추가, Word 클래스에서 단어를 추가 또는 수정, 단어를 출력하는 메소드 추가
+
+```TS
+type Words = {
+  [key: string]: string; // 제한된 양의 property 또는 key를 가지는 타입을 정의할 때 이와같은 방식을 씀
+};
+
+class Dict {
+  private words: Words; // words가 constructor로 인해 초기화 됨을 방지하기 위함
+  constructor() {
+    this.words = {}; // words를 수동으로 초기화
+  }
+  add(word: Word) {
+    // class를 타입처럼 사용가능, word가 Word의 인스턴스임
+    if (this.words[word.term] === undefined) {
+      this.words[word.term] = word.def;
+    }
+  }
+  def(term: string) {
+    return this.words[term];
+  }
+  del(term: string) {
+    // 단어를 삭제
+    if (this.words[term] !== undefined) {
+      delete this.words[term];
+    }
+  }
+  update(term: string, def: string) {
+    // 단어를 업데이트
+    if (this.words[term] !== undefined) {
+      this.words[term] = def;
+    }
+  }
+}
+
+class Word {
+  constructor(public readonly term: string, public def: string) {} // public 상태에서 값을 보여주고는 싶지만 수정불가하게 만들고 싶을 땐 readonly를 붙임
+  addDef(def: string) {
+    // 단어를 수정, 추가
+    this.def = def;
+  }
+  print() {
+    // 단어를 출력
+    console.log(`${this.term} : ${this.def}`);
+  }
+}
+
+const kimchi = new Word("kimchi", "한국의 음식");
+
+const dict = new Dict();
+
+dict.add(kimchi);
+dict.def("kimchi");
+```
+
 - 타입의 용도
 
 1. 타입을 어떠한 변수에 지정
@@ -342,4 +396,80 @@ makeUser({
 })
 ```
 
+- interface와 type는 오브젝트의 모양과 타입을 알려주지만 타입 상속 방법이 다르다.
+
+```TS
+type PlayerA = {
+    name:string
+}
+type PlayerAA = PlayerA & {
+    lastName:string
+}
+const playerA: PlayerAA = {
+    name:"nico",
+    lastName:"xxx"
+}
+interface PlayerB {
+    name:string
+}
+interface PlayerBB extends PlayerB { // extends를 이용하여 상속
+    lastName:string
+}
+interface PlayerBB { // type같은 경우는 이미 정의된 타입에 property를 추가하는 것이 불가능하지만 interface는 된다.
+    health:number
+}
+const PlayerB: PlayerBB {
+    name:"nico",
+    lastName:"xxx"
+}
+```
+
 ## #5.0 ~ #5.8
+
+- tsconfig.json을 만들면 vscode가 타입스크립트를 쓴다는 것을 인식하고 지정된 설정을 기반으로 컴파일이 되거나 자동완성 기능을 제공한다.
+
+```json
+{
+  "include": ["src"], // ts에서 js로 컴파일하고 싶은 모든 디렉터리를 넣음
+  "compilerOptions": {
+    "outDir": "build", // js파일이 생성될 디렉터리를 지정
+    "target": "es6", // 어떤 버전의 js로 ts를 컴파일할지 결정
+    "lib": ["ES6", "DOM"] // 어떤 환경에서 코드가 동작할지를 알려줌으로써 자동완성기능을 활성화함
+  }
+}
+```
+
+- 타입스크립트는 내장된 자바스크립트 API를 위한 기본적인 타입 정의는 가지고 있다. 이는 localStorage나 Math와 같이 자바스크립트에 존재하던 클래스, 함수 등등의 타입을 정의함으로써 타입스크립트가 다른 자바스크립트로 만들어진 패키지들을 사용할 수 있게 만들어준다.
+- d.ts가 붙은 정의파일은 타입스크립트의 자동완성 기능이 작동할 수 있도록 모든 클래스, 함수 등등의 타입과 설명이 들어있다. 이와같이, 자바스크립트 패키지를 타입스크립트에서 불러올때 d.ts파일을 만들어 파일안에 무엇이 들어있고 타입은 무엇인지를 적어놓는 것이 좋다.
+
+```JS
+// 패키지로 쓰일 js파일
+export function init(config) {
+    return true;
+}
+export function exit(code) {
+    return code + 1;
+}
+```
+
+```TS
+// 패키지를 불러오는 ts파일
+import { init, exit } from "myPackage";
+
+init({
+    url:"www."
+});
+
+exit(1);
+```
+
+```TS
+// js파일을 설명할 d.ts파일, 구현된 내용을 적는것이 아닌 타입만을 적음
+interface Config {
+    url:string
+}
+declare module "myPackage" {
+    function init(config: Config):boolean;
+    function exit(code:number):number;
+}
+```

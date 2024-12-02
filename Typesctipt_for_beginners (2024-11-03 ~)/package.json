@@ -1,0 +1,14 @@
+{
+  "name": "typesctipt_for_beginners-(2024-11-03-~)",
+  "version": "1.0.0",
+  "description": "노마드 코더(NomadCoders)의 강의 (https://nomadcoders.co/typescript-for-beginners) 기반으로 Typescript를 배움",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
