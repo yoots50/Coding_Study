@@ -473,3 +473,4 @@ declare module "myPackage" {
     function exit(code:number):number;
 }
 ```
+- JSDoc: 코멘트로 이루어진 문법, 자바스크립트 파일을 수정하지 않으면서 타입스크립트의 보호 장치를 쓰고 싶을 때 사용 
