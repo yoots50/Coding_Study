@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "노마드 코더(NomadCoders)의 강의 (https://nomadcoders.co/typescript-for-beginners) 기반으로 Typescript를 배움",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "node build/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9"
   }
 }
