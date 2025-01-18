@@ -34,3 +34,32 @@ export default function Profile({ image, name, title, isNew }) {
   margin-left: 200px;
 }
 ```
+2. 프로파일의 사진 부분을 따로 빼와 컴포넌트로 만듬.
+```js
+// Avatar.jsx
+export default function ProfilePicture() {
+    return (
+        <div>
+            {isNew && <span className="new">New</span>}
+            <img className="photo" src={image} alt="avatar" />
+        </div>
+    )
+}
+```
+```js
+// Profile.jsx
+import React from "react";
+import ProfilePicture from "./ProfilePicture";
+
+export default function Profile({ image, name, title, isNew }) {
+  return (
+    <div className="profile">
+        
+      <ProfilePicture image={image} isnew={isnew}/>
+
+      <h1>{name}</h1>
+      <p>{title}</p>
+    </div>
+  );
+}
+```
