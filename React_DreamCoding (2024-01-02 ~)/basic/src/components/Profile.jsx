@@ -5,7 +5,7 @@ export default function Profile({ image, name, title, isNew }) {
   return (
     <div className="profile">
         
-      <ProfilePicture image={image} isnew={isnew}/>
+      <ProfilePicture image={image} isNew={isNew}/>
 
       <h1>{name}</h1>
       <p>{title}</p>

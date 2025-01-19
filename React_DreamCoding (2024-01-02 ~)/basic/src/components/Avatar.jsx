@@ -1,4 +1,4 @@
-export default function ProfilePicture() {
+export default function ProfilePicture({image, isNew}) {
     return (
         <div className="avatar">
             {isNew && <span className="new">New</span>}
