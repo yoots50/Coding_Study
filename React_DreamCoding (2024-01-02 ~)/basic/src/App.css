@@ -10,9 +10,9 @@
   background-color: #ebebeb;
   border-radius: 20px;
   margin-bottom: 1rem;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .photo {
@@ -36,12 +36,12 @@
   position: relative;
   width: 200px;
   height: 200px;
-  margin:auto;
+  margin: auto;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
+  width: 500px;
+  margin: auto;
 }
 
 .counter {
@@ -73,4 +73,12 @@
     rgba(215, 127, 12, 1) 0%,
     rgba(253, 220, 29, 1) 100%
   );
+}
+
+.banner {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  background-color: gold;
+  font-weight: bold;
 }
