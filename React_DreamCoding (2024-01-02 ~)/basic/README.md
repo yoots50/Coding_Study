@@ -130,3 +130,24 @@ export default function Counter({ copyCount }) {
   );
 }
 ```
+4. 마우커서를 따라다니는 빨간원 만들기
+```js
+// AppXY.jsx
+import React, { useState } from "react";
+import "./AppXY.css";
+
+export default function AppXY() {
+  const [XY, setXY] = useState([]);
+  const handleMouseMove = (e) => {
+    setXY([e.clientX, e.clientY]);
+  };
+  return (
+    <div className="container" onMouseMove={handleMouseMove}>
+      <div className="pointer" style={{
+        left:XY[0],
+        top:XY[1],
+      }}/>
+    </div>
+  );
+}
+```
