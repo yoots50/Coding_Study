@@ -151,3 +151,57 @@ export default function AppXY() {
   );
 }
 ```
+5. 멘토의 이름과 타이틀을 입력받아 객체 바꾸기
+```js
+//AppMentor.jsx
+import React, { useState } from "react";
+
+export default function AppMentor(props) {
+  const [person, setPerson] = useState({
+    name: "엘리",
+    title: "개발자",
+    mentor: {
+      name: "밥",
+      title: "시니어개발자",
+    },
+  });
+  return (
+    <div>
+      <h1>
+        {person.name}는 {person.title}
+      </h1>
+      <p>
+        {person.name}의 멘토는 {person.mentor.name} ({person.mentor.title})
+      </p>
+      <button
+        onClick={() => {
+          const name = prompt(`what's your mentor's name?`);
+          setPerson((person) => {
+            ...person,
+            mentor: {
+              ...person.mentor,
+              name: name,
+            },
+          }); // 이전 상태의 person을 고치는 것이므로 (person) => ({위의 코드}) 이런식으로 쓰는 것이 더 올바름
+        }}
+      >
+        멘토 이름 바꾸기
+      </button>
+      <button
+        onClick={() => {
+          const title = prompt(`what's your mentor's title?`);
+          setPerson((person) => {
+            ...person,
+            mentor: {
+              ...person.mentor,
+              title: title,
+            },
+          });
+        }}
+      >
+        멘토 타이틀 바꾸기
+      </button>
+    </div>
+  );
+}
+```
