@@ -259,3 +259,95 @@ export default function AppMentors() {
   );
 }
 ```
+7. 멘토를 추가/삭제하는 버튼 만들기
+```js
+import React, { useState } from "react";
+
+export default function AppMentors() {
+  const [person, setPerson] = useState({
+    name: "엘리",
+    title: "개발자",
+    mentors: [
+      {
+        name: "밥",
+        title: "시니어개발자",
+      },
+      {
+        name: "제임스",
+        title: "시니어개발자",
+      },
+    ],
+  });
+  return (
+    <div>
+      <h1>
+        {person.name}는 {person.title}
+      </h1>
+      <p>{person.name}의 멘토는:</p>
+      <ul>
+        {person.mentors.map((mentor, index) => (
+          <li key={index}>
+            {mentor.name} ({mentor.title})
+          </li>
+        ))}
+      </ul>
+      <button
+        onClick={() => {
+          const prev = prompt(`누구의 이름을 바꾸고 싶은가요?`);
+          const current = prompt(`이름을 무엇으로 바꾸고 싶은가요?`);
+          setPerson((prevPerson) => ({
+            ...prevPerson,
+            mentors: prevPerson.mentors.map((mentor) => { 
+              if (mentor.name === prev) {
+                return {
+                  ...mentor,
+                  name: current,
+                };
+              }
+              return mentor;
+            }),
+          }));
+        }}
+      >
+        멘토의 이름을 바꾸기
+      </button>
+      <button
+        onClick={() => {
+          const newName = prompt(`추가할 이름을 입력하세요.`);
+          const newTitle = prompt(`직업을 입력하세요.`);
+          setPerson((prevPerson) => ({ // 스프레드 연산자를 쓰면 더 간단하게 코드를 짤 수 있음 ex) mentors: [...prevPerson.mentors, {newName, newTitle}]
+            ...prevPerson,
+            mentors: [
+              ...prevPerson.mentors,
+              {
+                name: newName,
+                title: newTitle,
+              },
+            ],
+          }));
+        }}
+      >
+        멘토 추가하기
+      </button>
+      <button
+        onClick={() => {
+          const deleteName = prompt(`삭제할 사람의 이름을 입력하세요.`);
+          setPerson((prevPerson) => ({
+            ...prevPerson,
+            mentors: prevPerson.mentors.map((mentor, index) => { // 삭제할 땐 filter를 이용하는 것이 코드가 더 깔끔함 ex) mentors: prevPerson.mentors.filter((mentor) => mentor.name !=== deleteName)
+              if (mentor.name === deleteName) {
+                delete prevPerson.mentors[index];
+                return;
+              } else {
+                return mentor;
+              }
+            }),
+          }));
+        }}
+      >
+        멘토 삭제하기
+      </button>
+    </div>
+  );
+}
+```
