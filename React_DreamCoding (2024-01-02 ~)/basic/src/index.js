@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import AppMontorsButton from './AppMontorsButton';
+import AppProducts from './basic/AppProducts';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppMontorsButton />
+    <AppProducts />
   </React.StrictMode>
 );
 
