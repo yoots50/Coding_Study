@@ -5,7 +5,7 @@ DreamCoding의 React강의 중 Todo 사이트 만들기 부분을 시청하기 �
 - 탭은 총 3개, All, Active, Completed로 All에는 모든 Todo, Active에는 완수하지 못 한 Todo, 
 Completed에는 이미 완수한 Todo만 보이게 함
 
-- 순수 css, PostCss을 이용한 라이트/다크모드 기능
+- 순수 css, PostCss를 이용한 라이트/다크모드 기능
 
 - Todo에 체크박스를 만들어 완수 여부를 기록
 
@@ -23,3 +23,8 @@ Completed에는 이미 완수한 Todo만 보이게 함
 - 로컬 스토리지를 통한 todo 리스트의 상태 저장/로드
 
 - 체크박스를 이용하여 취소선 생성
+
+## 📄 2025-02-16
+- All, Active, Completed 탭을 누르면 Todo의 성공 여부를 필터링하여 렌더링
+
+- 순수 css, PostCss를 통해 만든 라이트/다크모드

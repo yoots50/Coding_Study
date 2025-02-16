@@ -1,0 +1,11 @@
+.button {
+    font-size: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.darkbutton {
+    font-size: 30px;
+    margin-left: 135px;
+    border-radius: 5px;
+}
