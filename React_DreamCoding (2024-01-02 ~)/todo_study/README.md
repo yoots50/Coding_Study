@@ -119,3 +119,49 @@ export default function TodoList() {
   );
 }
 ```
+- 필터 버튼을 추가해 status에 따라 보여주는 todo를 다르게 하기
+```js
+import React, { useState } from "react";
+import AddTodo from "../AddTodo/AddTodo";
+import Todo from "../Todo/Todo";
+export default function TodoList() {
+  const [todos, setTodos] = useState([
+    { id: "123", text: "장보기", status: "active" },
+    { id: "124", text: "공부하기", status: "active" },
+  ]);
+  const [filter, setFilter] = useState("all");
+  const handleAdd = (todo) => {
+    setTodos([...todos, todo]);
+  };
+  const handleUpdate = (updated) => {
+    setTodos(todos.map((t) => (t.id === updated.id ? updated : t)));
+  };
+  const handleDelete = (deleted) => {
+    setTodos(todos.filter((t) => t.id !== deleted.id));
+  };
+  const handleFilter = (e) => {
+    setFilter(e.target.innerHTML);
+    console.log(filter);
+  };
+  return (
+    <section>
+      <button onClick={handleFilter}>all</button>
+      <button onClick={handleFilter}>active</button>
+      <button onClick={handleFilter}>completed</button>
+      <ul>
+        {todos
+          .filter((item) => item.status === filter)
+          .map((item) => (
+            <Todo
+              key={item.id}
+              todo={item}
+              onUpdate={handleUpdate}
+              onDelete={handleDelete}
+            />
+          ))}
+      </ul>
+      <AddTodo onAdd={handleAdd} />
+    </section>
+  );
+}
+```
