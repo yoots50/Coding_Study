@@ -1,7 +1,7 @@
 import React from "react";
 import { FaTrashAlt } from "react-icons/fa";
 import styles from "./Todo.module.css";
-export default function Todo({ todo, onUpdate, onDelete }) {
+export default function Todo({ todo, onUpdate, onDelete, isDarkMode }) {
   const { text, status } = todo;
   const handleChange = (e) => {
     const status = e.target.checked ? "completed" : "active";

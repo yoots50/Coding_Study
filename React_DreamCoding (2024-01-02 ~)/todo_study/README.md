@@ -165,3 +165,31 @@ export default function TodoList() {
   );
 }
 ```
+
+- 다크모드 만들기 (module.css를 다크모드와 라이트모드 버전 두가지로 나누어 색이 달라지게 함)
+```js
+// App.js
+import { useState } from "react";
+import "./App.css";
+import Header from "./components/Header/Header";
+import TodoList from "./components/TodoList/TodoList";
+
+const filters = ["all", "active", "completed"];
+function App() {
+  const [filter, setFilter] = useState(filters[0]);
+  const [isDarkMode, setDarkMode] = useState(false); // 다크모드 변수
+  return (
+    <>
+      <Header
+        filters={filters}
+        filter={filter}
+        onFilterChange={setFilter}
+        isDarkMode={isDarkMode} // 다크모드 변수를 넘겨줌
+        onDarkModeChange={setDarkMode} // 다크모드를 바꾸게 하도록 함
+      />
+      <TodoList filter={filter} isDarkMode={isDarkMode}/> {/* 다크모드를 다른 컴포넌트들에게 뿌림 */} 
+    </>
+  );
+}
+export default App;
+```
