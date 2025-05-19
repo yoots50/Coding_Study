@@ -3,7 +3,7 @@ import "./App.css";
 import ErrorPage from "./pages/ErrorPage";
 import Root from "./pages/Root";
 import Home from "./pages/Home/Home";
-import Video from "./pages/video";
+import Video from "./pages/Video/Video";
 
 function App() {
   const router = createBrowserRouter([

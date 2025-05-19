@@ -1,0 +1,19 @@
+.video {
+    width: 50rem;
+    height: 30rem;
+}
+.title {
+
+}
+.description {
+    width: 100%;
+}
+.container {
+    display: flex;
+}
+.videoContainer {
+    width: 50rem;
+}
+.videoInfoContainer {
+    width: 100%;
+}
