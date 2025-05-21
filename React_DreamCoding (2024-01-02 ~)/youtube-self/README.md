@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Youtube 클론코딩
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+드림코딩(DreamCoding)의 React 강의 중 유튜브 프로젝트를 하기 전 스스로 해기 위해 만든 Youtube 클론코딩 프로젝트.</br></br>
+아래는 패치노트로, 기능의 수정, 추가, 제거 등을 기록함
 
-## Available Scripts
+## 2025-05-14
 
-In the project directory, you can run:
+### App.js
 
-### `npm start`
+- App.js에 Route 추가 (Root, ErrorPage, Home, Video)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Root 페이지
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Root 페이지 추가
+- Outlet 컴포넌트를 통해 Navbar가 항상 위에 있도록 함
 
-### `npm test`
+### Home 페이지
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Home 페이지 추가
+- fetch를 통해 data.json(더미 데이터)을 받아 영상들의 목록을 보여줌
 
-### `npm run build`
+### Components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Navbar 추가
+- youtube 글자를 누르면 home 페이지로 가게하고 검색바를 추가함, 검색바의 기능은 향후 추가될 예정
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Video 페이지
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Video 페이지 추가
+- Video 페이지의 기능은 향후 추가될 예정
 
-### `npm run eject`
+### 그 외
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- CSS 개선
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 2025-05-19
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Video 페이지
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Youtube API를 활용하기 위해 fetch 함수로 GET요청을 보내 영상정보를 받아오고 페이지에 영상, 영상의 제목과 설명란을 표시함
 
-## Learn More
+### 그 외
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- CSS 개선
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 2025-05-21
 
-### Code Splitting
+### Search 페이지
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- 검색 기능 추가
 
-### Analyzing the Bundle Size
+### Video 페이지
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Video 페이지 내 사이드 바 추가
+- Video 페이지 채널 정보 추가
+- fetching 단계에서 loading 변수를 통해 에러를 막음
 
-### Making a Progressive Web App
+### Channel 페이지
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Channel 페이지 추가
 
-### Advanced Configuration
+### Componenets
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- VideoPlayer, VideoList, VideoInfo, SearchList 추가
 
-### Deployment
+### 그 외
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 페이지에 있던 기능들을 컴포넌트로 옮김 (VideoPlayer, VideoList, VideoInfo)
+- CSS 개선 (Home 페이지 반응형 레이아웃 추가)

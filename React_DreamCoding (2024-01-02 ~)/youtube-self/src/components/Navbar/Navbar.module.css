@@ -1,12 +1,15 @@
 .navbar {
   display: flex;
   align-items: center;
+  height: 4rem;
 }
 
 .search {
     margin: 0 auto;
+    
 }
 
 .logo {
     position: absolute;
+    margin-left: 50px;
 }

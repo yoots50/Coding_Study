@@ -1,12 +1,14 @@
 import { useState } from "react";
 import styles from "./Navbar.module.css";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 
 export default function Navbar() {
   const [search, setSearch] = useState("");
+  const navigate = useNavigate()
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(search);
+    navigate(`/search/${search}`)
   };
   const handleChange = (e) => {
     e.preventDefault();

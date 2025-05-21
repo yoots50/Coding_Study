@@ -1,14 +1,16 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
+import VideoPlayer from "../../components/VideoPlayer/VideoPlayer";
+import VideoInfo from "../../components/VideoInfo/VideoInfo";
+import VideoList from "../../components/VideoList/VideoList";
 import styles from "./Video.module.css";
-import ReactMarkdown from "react-markdown";
 
 export default function Video() {
   const { videoId } = useParams();
   const src = `http://www.youtube.com/embed/${videoId}?enablejsapi=1`;
-  const [videoData, setVideoData] = useState(undefined);
-  const [title, setTitle] = useState(undefined);
-  const [description, setDescription] = useState(undefined);
+  const [data, setData] = useState([]);
+  const [listData, setListData] = useState([]);
+  const [isLoading, setLoading] = useState(false);
 
   useEffect(() => {
     async function request() {
@@ -20,39 +22,35 @@ export default function Video() {
       )
         .then((res) => res.json())
         .then((res) => {
-          setVideoData(res);
+          if (res.items[0].snippet) {
+            setData(res);
+            setLoading(true);
+          }
         });
     }
+    setLoading(false);
     request();
-  }, []);
+  }, [videoId]);
 
   useEffect(() => {
-    if (videoData && videoData.items.length === 1) {
-      const videoDataSnippet = videoData.items[0].snippet;
-      setTitle(videoDataSnippet.title);
-      setDescription(videoDataSnippet.description);
-    }
-  }, [videoData]);
+    fetch("/data/data.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setListData(data);
+      });
+  }, []);
+
   return (
-    <div className={styles.container}>
-      <div className={styles.videoContainer}>
-        <iframe
-          id="player"
-          type="text/html"
-          src={src}
-          frameBorder="0"
-          title="video"
-          className={styles.video}
-        ></iframe>
-        <div className={styles.videoInfoContainer}>
-          <div className={styles.title}>{title}</div>
-          <details className={styles.description}>
-            <summary>more information...</summary>
-            <ReactMarkdown>{description}</ReactMarkdown>
-          </details>
+    <div>
+      {isLoading ? (
+        <div className={styles.container}>
+          <div className={styles.videoContainer}>
+            <VideoPlayer src={src} />
+            <VideoInfo data={data} />
+          </div>
+          <VideoList data={listData} />
         </div>
-      </div>
-      <div>list of videos</div>
+      ) : null}
     </div>
   );
 }
