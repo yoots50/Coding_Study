@@ -4,5 +4,37 @@
 
 .videoContainer {
   width: 100vw;
+  height: 70vh;
   margin: 1.5rem;
+}
+
+.listContainer {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border: solid blue 1px;
+    margin-right: 1rem;
+}
+
+.video {
+    display: flex;
+    border: solid red 1px;
+    margin-bottom: 1rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnails{
+
+}
+
+.title {
+
+}
+
+.channelTitle {
+
 }

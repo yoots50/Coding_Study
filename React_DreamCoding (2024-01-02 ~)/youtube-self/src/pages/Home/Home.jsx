@@ -1,48 +1,38 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import styles from "./Home.module.css";
+import VideoThumbnail from "../../components/VideoThumbnail/VideoThumbnail";
 export default function Home() {
-  const [videos, setVideos] = useState([]);
-  const [channelData, setChannelData] = useState([])
+  const [data, setData] = useState([]);
+  const [channelData, setChannelData] = useState([]);
+  const [isLoading, setLoading] = useState(false);
 
   useEffect(() => {
-    fetch("data/data.json")
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data.items);
-        setVideos(data.items);
-      });
-  }, []);
-
-  useEffect(() => {
-    if(videos.items) {
-      videos.map((video, i) => {
-        const channelId = video.items[i].snippet.channelId;
-        async function request() {
-        }
-        request()
-      })
+    async function request() {
+      await fetch("data/data.json")
+        .then((res) => res.json())
+        .then((data) => {
+          setLoading(true);
+          setData(data);
+        });
     }
-  },[videos])
+    setLoading(false);
+    request();
+  }, []);
   return (
-      <div className={styles.videos}>
-        {videos.map((video) => {
-          return (
-            <Link
-              to={`/videos/${video.id.videoId}`}
-              title={video.snippet.title}
-              key={video.id.videoId}
-              className={styles.video}
-            >
-              <img
-                src={video.snippet.thumbnails.default.url}
-                alt="thumbnail"
-                className={styles.thumbnail}
+    <div className={styles.container}>
+      {isLoading
+        ? data.items &&
+          data.items.map((video) => {
+            return (
+              <VideoThumbnail
+                video={video}
+                thumbnailsQuality="high"
+                styles={styles}
               />
-              <h3 className={styles.title}>{video.snippet.title}</h3>
-            </Link>
-          );
-        })}
-      </div>
+            );
+          })
+        : null}
+    </div>
   );
 }

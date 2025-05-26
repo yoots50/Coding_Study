@@ -67,3 +67,27 @@
 
 - 페이지에 있던 기능들을 컴포넌트로 옮김 (VideoPlayer, VideoList, VideoInfo)
 - CSS 개선 (Home 페이지 반응형 레이아웃 추가)
+
+## 2025-05-26
+
+### Home 페이지
+
+- channelData를 fetching함
+- fetch 함수를 비동기 함수로 만듬
+
+### Video 페이지
+
+- channelData를 fetching함
+
+### Search 페이지
+
+- isLoading 변수를 추가
+
+### Components
+
+- VideoList와 SearchList를 없애고 VideoThumbnail 컴포넌트를 만들어 이를 Home.jsx, Video.jsx, Search.jsx에 재사용함
+- VideoThumbnail에서 받은 data를 사용하여 channelData를 불러오고 채널 썸네일을 img태그를 통해 만듬
+
+### 그 외
+
+- CSS 개선
