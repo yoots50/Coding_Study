@@ -3,3 +3,11 @@
     margin: 0;
     font-family: Arial,sans-serif;
 }
+
+:root {
+  --color-bg: #fdfffd;
+}
+
+html.dark {
+  --color-bg: #1a1c35;
+}

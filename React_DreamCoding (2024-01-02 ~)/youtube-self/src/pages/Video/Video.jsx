@@ -5,7 +5,7 @@ import VideoInfo from "../../components/VideoInfo/VideoInfo";
 import styles from "./Video.module.css";
 import VideoThumbnail from "../../components/VideoThumbnail/VideoThumbnail";
 
-export default function Video() {
+export default function Video({ isDarkMode, onDarkModeChange }) {
   const { videoId } = useParams();
   const src = `http://www.youtube.com/embed/${videoId}?enablejsapi=1`;
   const [data, setData] = useState([]);

@@ -3,7 +3,12 @@ import styles from "./VideoInfo.module.css";
 
 import { Link } from "react-router";
 
-export default function VideoInfo({ data, channelData }) {
+export default function VideoInfo({
+  data,
+  channelData,
+  isDarkMode,
+  onDarkModeChange,
+}) {
   return (
     <div className={styles.info}>
       <div className={styles.title}>{data.items[0].snippet.title}</div>

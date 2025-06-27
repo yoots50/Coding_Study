@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 
-export default function Channel() {
+export default function Channel({ isDarkMode, onDarkModeChange }) {
   const { channelId } = useParams();
   const [data, setData] = useState(undefined);
   const fetchUrl = "";

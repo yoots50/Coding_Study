@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import styles from "./Search.module.css";
 import VideoThumbnail from "../../components/VideoThumbnail/VideoThumbnail";
 
-export default function Search() {
+export default function Search({ isDarkMode, onDarkModeChange }) {
   const { searchId } = useParams();
   const [data, setData] = useState([]);
   const [isLoading, setLoading] = useState(false);

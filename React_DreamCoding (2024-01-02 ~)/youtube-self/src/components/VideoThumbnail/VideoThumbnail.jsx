@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
-export default function VideoThumbnail({ video, thumbnailsQuality, styles }) {
+export default function VideoThumbnail({ video, thumbnailsQuality, styles, isDarkMode, onDarkModeChange }) {
   const [isLoading, setLoading] = useState(false);
   const [channelData, setChannelData] = useState([]);
   const videoThumbnails = (quality, video) => {

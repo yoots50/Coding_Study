@@ -91,3 +91,21 @@
 ### 그 외
 
 - CSS 개선
+
+## 2025-06-27
+
+### Context
+
+- 다크모드 기능을 만들기 위해 DarkModeContext.jsx를 만듬
+
+### App.jsx
+
+- DarkModeProvider 추가
+
+### 모든 하위 컴포넌트 및 페이지들
+
+- isDarkMode, onDarkModeChange 변수를 받게하여 다크모드 테마를 적용시킬 수 있도록 함
+
+### CSS
+
+- index.css 파일에 html태그가 dark 클래스가 붙으면 적용할 색을 추가

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import styles from "./Home.module.css";
 import VideoThumbnail from "../../components/VideoThumbnail/VideoThumbnail";
-export default function Home() {
+export default function Home({ isDarkMode, onDarkModeChange }) {
   const [data, setData] = useState([]);
   const [channelData, setChannelData] = useState([]);
   const [isLoading, setLoading] = useState(false);

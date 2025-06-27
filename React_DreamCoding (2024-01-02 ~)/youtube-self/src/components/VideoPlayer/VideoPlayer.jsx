@@ -1,6 +1,6 @@
 import styles from "./VideoPlayer.module.css";
 
-export default function VideoPlayer({ src }) {
+export default function VideoPlayer({ src, isDarkMode, onDarkModeChange }) {
   return (
     <iframe
       id="player"
