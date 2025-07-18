@@ -1,0 +1,998 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "3UJRMz4w1SXE_q4JNJN9sOKYvo0",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 129,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nS3vqio_P8GR5WMo5JvusdtH69c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YWkumZQYP1U"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-22T11:26:24Z",
+        "channelId": "UCq3hT5JPPKy87JGbDls_5BQ",
+        "title": "THE LAST OF US Trailer Breakdown | Easter Eggs, Plot Theories And Reaction | HBO Max",
+        "description": "THE LAST OF US Trailer Breakdown | Easter Eggs, Plot Theories And Reaction. We breakdown and explain the new TLOU HBO Max trailer and go over how it ties in with the game, the characters and also little details in it.\n\n#TheLastOfUs #LastOfUs #TLOU #Trailer #TrailerBreakdown #HBOMax #HBO #VideoGames \n\nIf you enjoyed this video then please subscribe to the channel https://www.youtube.com/channel/UCq3hT5JPPKy87JGbDls_5BQ?sub_confirmation=1\n\nIf You Want To Help Support The Channel So I Can Make More Videos Like This Please Donate Here:\nhttps://www.youtube.com/channel/UCq3hT5JPPKy87JGbDls_5BQ/join\n\nCheck out our #shorts channel here HEAVY SPOILERS CLIPS - https://www.youtube.com/channel/UCe48Fl2G6dB6HHYA982fkRA?sub_confirmation=1\n\nGet some awesome Heavy Spoilers show clothes, phonecases and accessories at - http://shopzeroedition.com/collections/heavy-spoilers-merch\n\n*Check out our BEST new videos below*\n*House Of The Dragon Episode 1 Breakdown* - https://www.youtube.com/watch?v=wcN_XnTIKVE\n*SHE HULK Episode 1 Breakdown* - https://www.youtube.com/watch?v=cqnfg1pRKAQ\n*Better Call Saul Season 6 Ending Explained* - https://www.youtube.com/watch?v=aOtn9AWxbbs\n*Westworld Season 4 Episode 8 Breakdown* - https://www.youtube.com/watch?v=cMlKQPc-cKM\n*Prey 2 Predictions* - https://www.youtube.com/watch?v=EvTn1IcVAvU\n*Sandman Ending Explained* - https://www.youtube.com/watch?v=J4Guf3aHTGs\n\n\n/* ----- SOCIAL MEDIA ----- */\n\nFollow Us On Social Media At:\nWebsite - https://heavyspoilers.com/\nTikTok - https://www.tiktok.com/@heavyspoilers?lang=en\nTwitter - https://twitter.com/heavyspoilers\nInstagram - https://www.instagram.com/heavyspoilers/\nFacebook - https://www.facebook.com/DeffinitionMC/\n\nFollow our team at - \nHost Paul - https://twitter.com/heavyspoilers\nHost Jared - https://twitter.com/JaredBuckendahl\nEditor Steesh - https://twitter.com/SteeshHaggie\nEditor Matt - https://twitter.com/SuperHeroNexus\n\n\n/* ----- VIDEO INFORMATION ----- */\n\nWelcome to the Heavy Spoilers show I'm your host Paul and who else is here FOOOOOUUUUURRR The Last Of Us Teaser Trailer.\n\nLittle Golf Joke there and I tell you, we can look back and laugh now but at the time, ffff, dear me.\n\nAnyway the new show looks incredible and throughout this video I wanna go through the trailer frame by frame and talk about all the details in it.\n\nThere will be some major spoilers here in terms of what happens in the game though so if you haven't checked it out then check out now.\n\nIf you enjoy this video then please hit the thumbs up button and also don't forget to subscribe for videos like this every day.\n\nWith that out the way, thank you for clicking this, now let's get into The Last Of Us.\n\n-\n\nOk so the teaser opens in the Winter with Joel and Ellie crossing a bridge. This instantly lets us know that things will be changed up from the original game as though the setting is the same, the circumstances aren't.\n\nThe entire first game took place roughly over the space of a year with us getting several seasons all denoting certain themes and time periods. \n\nDuring this point in the original release, Joel was actually recovering from falling on some Rebarb and Ellie was out hunting for medicine and food whilst he was resting up.\n\nHere she came across David who seemed like a good Samaritan that was just trying to help her out. He was however revealed to be the leader of a group of cannibals and he was also probably a nonce.\n\n\nMusic By - PSiMiTAR\n► Youtube Subscribe - https://www.youtube.com/user/IamSteesh?sub_confirmation=1\n► Instrumentals - https://www.youtube.com/watch?v=nUFhME-rGtc&list=PLheoTHb8ecX76eFcGiH2mEPIZLK0ETeMb\n► Twitter - https://twitter.com/steeshhaggie\n► Instagram - https://www.instagram.com/steeshhaggie/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YWkumZQYP1U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YWkumZQYP1U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YWkumZQYP1U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/YWkumZQYP1U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/YWkumZQYP1U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Heavy Spoilers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-22T11:26:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Nj_k9OXixR0VkCrL-JCn90Ym-ss",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-eRz-00DcT0"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-27T01:08:07Z",
+        "channelId": "UC7v3-2K1N84V67IF-WTRG-Q",
+        "title": "The Last of Us | Official Teaser | HBO Max (My Thoughts)",
+        "description": "HBO's live action THE LAST OF US series has an official Teaser, and here are my thoughts on it!\n\nWatch the teaser here: https://www.youtube.com/watch?v=rBRRDpQ0yc0&ab_channel=HBOMax\n\n#TheLastOfUs",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-eRz-00DcT0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-eRz-00DcT0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-eRz-00DcT0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Jeremy Jahns",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-27T01:08:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "i588cnJykfKRSnL_52XFNGuCr_8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "V79Y3cU_Swo"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-26T11:36:04Z",
+        "channelId": "UC3DOMNPaR3_YihbzMsOJKQw",
+        "title": "HOUSE OF THE DRAGON Cast Shares Incredible Audition Stories With Matt Smith, Milly Alcock & More",
+        "description": "\"House Of The Dragon\" Stars Reveal Their Audition Stories And How They Landed Their Roles | Behind The Scenes Interview With Matt Smith, Paddy Considine, Emmy D'Arcy, Milly Alcock, Olivia Cooke, Steve Toussaint, Emily Carey & Eve Best | Making Of Talk | Funny Cast Moments | HBO Original Series 2022 (USA) | Sky Exclusive Series (GER, UK, FR, A, SU)  | HBO MAX | WOW | Genre: Fantasy Action, Drama |  A̲̲b̲̲o̲̲n̲̲n̲̲i̲̲e̲̲r̲̲e̲̲n̲/Subscribe ➢ http://bit.ly/2ncNY5W | (OT: HOUSE OF THE DRAGON ) SEASON 2 ALREADY CONFIRMED AND COMING END OF 2023\n\nＫＥＹ ＦＡＣＴＳ:\n🔑 Release Date 21.08.2022 (HBO | HBO MAX)\n🔑 Release Date 22.08.2022 (SKY | WOW)\n🔑 Duration: 10 Episodes in 1 Season\n🔑 US-Link: www.hbo.com/house-of-the-dragon\n🔑 EU-Link: www.sky.de/serien/house-of-the-dragon\n\nP L O T:\nThe story of the House Targaryen set 200 years before the events of Game of Thrones (2011).\n\nＣＡＳＴ:  \n❌ Paddy Considine (King Viserys Targaryen)\n❌ Olivia Cooke (Alicent Hightower)\n❌ Emma D'Arcy (Princess Rhaenyra Targaryen)\n❌ Matt Smith (Prince Daemon Targaryen)\n❌ Steve Toussaint (Lord Corlys Velaryon)\n❌ Eve Best (Princess Rhaenys Velaryon)\n❌ Rhys Ifans (Otto Hightower)\n❌ Sonoya Mizuno (Mysaria)\n❌ Eve Best (Princess Rhaenys Velaryon)\n❌ Milly Alcock (Young Rhaenyra Targaryen)\n❌ Emily Carey (Young Alicent Hightower)\n❌ Fabien Frankel (Ser Criston Cole)\n❌ Ryan Corr (Ser Harwin 'Breakbones' Strong)\n❌ Jefferson Hall (Lord Jason Lannister)\n❌ David Horovitch (Grand Maester Mellos)\n❌ Graham McTavish (Ser Harrold Westerling)\n❌ Matthew Needham (Larys Strong)\n❌ Bill Paterson(Lord Lyman Beesbury)\n❌ Gavin Spokes (Lord Lyonel Strong)\n❌ Alexis Raben (Talya)\n\nD I R E C T O R: \n❌ Miguel Sapochnik\n❌ Greg Yaitanes\n❌ Clare Kilner\n❌ Geeta Vasant Patel\n\nS C R I P T:\n❌ Ryan J. Condal\n❌ George R.R. Martin\n❌ Sara Hess\n❌ Charmaine De Grate\n❌ Gabe Fonseca\n❌ Kevin Lau\n❌ Ira Parker\n❌ Eileen Shim\n\n📺 No HBO Max yet??Then click here for the free trial month (can be cancelled at any time): http://nflx.it/2otXYJ1\n\n❗️ http:// amzn.to are Affiliate Links. If you buy something through them, nothing changes for you, but you support my work.\n\n❗️ http:// amzn.to sind Affiliate Links. Wenn ihr darüber etwas kauft ändert sich für euch nichts, ihr unterstützt jedoch meine Arbeit. | Trailer: Promotional use only.\n\n ❗️Trailer: Promotional Use Only. | All Rights Reserved. | Trailer property of HBO & SKY |\n\n#houseofthedragon #interview #behindthescenes",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V79Y3cU_Swo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V79Y3cU_Swo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V79Y3cU_Swo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/V79Y3cU_Swo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/V79Y3cU_Swo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "STREAM WARS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-26T11:36:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TF6_eTHVoca3qcVXNd5aICp-eig",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hxNKzJ1oZ40"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-26T16:47:09Z",
+        "channelId": "UCLdPUOIBv-O0mTWtUBaQNtg",
+        "title": "The Absolutely Insane Update on Cyberpunk 2077",
+        "description": "Today we talk about Cyberpunk 2077's insane new playcount. Following the release of Cyberpunk Edgerunners, Cyberpunk 2077 has been hitting insane new player numbers and many fans are questioning what future updates and DLC for Cyberpunk may entail. \n\nGet Cyberpunk 2077 with my affiliate link: https://af.gog.com/game/cyberpunk_2077?as=1716164547\n\r\nMerch: https://juicehead.net/\r\nTwitter: https://twitter.com/JuiceHead33\r\nDiscord: https://discord.gg/jzhzrhm\n\nSources:\n\n1 Million Players Per Day: https://twitter.com/CyberpunkGame/status/1572601419789897728\nHothead Gig Gameplay: https://www.youtube.com/watch?v=WHU4j4bYYoQ\nMultiplayer in the Credits: https://old.reddit.com/r/cyberpunkgame/comments/xkzt7i/what_multiplayer/\nCyberpunk Steam Best Seller: https://old.reddit.com/r/LowSodiumCyberpunk/comments/xnlh6v/cyberpunk_2077_is_now_the_1_seller_on_steam/\nCDPR Reactions:\nhttps://twitter.com/tostspender/status/1574040458749267969\nhttps://twitter.com/JakubWu/status/1573708799373983745\nhttps://twitter.com/PaweSasko/status/1574044965075927043\nCyberpunk 2077 Bugs: https://www.youtube.com/watch?v=CqEMEjJj4hs\nCyberpunk 2077 Police Chase: https://www.youtube.com/watch?v=Gl_-_pds5k8\nCyberpunk 2077 Ray Tracing Overdrive: https://www.nvidia.com/en-us/geforce/news/dlss3-supports-over-35-games-apps/\nPolice Chase and Vehicle Combat Mod: https://www.nexusmods.com/cyberpunk2077/mods/3815\n\nThumbnail: https://www.nexusmods.com/cyberpunk2077/images/25043\nAuthor - gunshyghosts\n\n#Cyberpunk2077 #CyberpunkUpdate #CyberpunkLeak",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hxNKzJ1oZ40/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hxNKzJ1oZ40/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hxNKzJ1oZ40/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JuiceHead",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-26T16:47:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hCMYe5b8uXEC-kW4Eny9m8kyMMQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qGLHDqcV-Pg"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-20T18:31:06Z",
+        "channelId": "UCo5E9pEhK_9kWG7-5HHcyRg",
+        "title": "WI v. Jeffrey Dahmer (1992): Victim Tracy Edwards Testifies",
+        "description": "WI v. DAHMER (1992): Tracy Edwards, who escaped from Jeffrey Dahmer, takes the stand.\n\nA new Netflix documentary \"Monster: The Jeffrey Dahmer Story\" explores the gruesome story of Jeffrey Dahmer. Court TV cameras were inside the Wisconsin courtroom in 1992, where a jury was tasked to decide whether Dahmer, who pleaded guilty to the murders and dismemberment of 15 boys and men, should be sentenced to life in prison or admitted to a mental institution.\n\nWatch the FULL TRIAL of WI v. #JeffreyDahmer (1992) on #CourtTV Trials #OnDemand \nhttps://www.courttv.com/trials/wi-v-dahmer-1992/\n\nWATCH COURT TV LIVE:\n  https://www.courttv.com/title/court-tv-live-stream-web/?trk=YouTube \n\nWATCH TRIALS ON DEMAND:\n https://www.courttv.com/programming/trial-archives/?trk=YouTube \n\nWHERE TO WATCH:   \nhttps://www.courttv.com/where-to-watch/?trk=YouTube",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qGLHDqcV-Pg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qGLHDqcV-Pg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qGLHDqcV-Pg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qGLHDqcV-Pg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qGLHDqcV-Pg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "COURT TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-20T18:31:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "j4N1OmWpxRagXJ1_d8xG62wL0iw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pk9v3m7Slv8"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-24T12:50:18Z",
+        "channelId": "UCBa659QWEk1AI4Tg--mrJ2A",
+        "title": "I thought the treadmill crane was fictional.",
+        "description": "The treadwheel crane, or treadmill crane, sounds like something from Astérix or the Flintstones. But at Guédelon in France, not only do they have one: they're using it to help build their brand new castle. ▪ More about Guédelon: https://www.guedelon.fr/\n\nCamera: Simon Gillouin\nEditor: Michelle Martin https://twitter.com/mrsmmartin\nProducer: Axel Zeiliger https://block8production.com\n\nI'm at https://tomscott.com\r\non Twitter at https://twitter.com/tomscott\r\non Facebook at https://facebook.com/tomscott\r\nand on Instagram as tomscottgo",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pk9v3m7Slv8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pk9v3m7Slv8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pk9v3m7Slv8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pk9v3m7Slv8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/pk9v3m7Slv8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Tom Scott",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-24T12:50:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rdE4oZMYywVfDfI-k8WsIc8vSRk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FJNnSlTZE9E"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-30T23:16:57Z",
+        "channelId": "UCSFy-1JrpZf0tFlRZfo-Rvw",
+        "title": "The failure of feminist Hollywood",
+        "description": "Thanks to Established Titles for sponsoring today's video. They are now running a Labor Day Sale! Go to https://establishedtitles.com/Sydney to get an additional 10% off on any purchase with code SYDNEY!\n\nLinks:\nThe article that made me angry: https://gamerant.com/she-hulk-sex-positive-vibes-jessica-gao/\n\nBatgirl: https://www.ign.com/articles/the-batgirl-cancellation-why-it-happened-the-social-media-fallout-and-more\n\nBatwoman: https://www.cbr.com/batwoman-cancelled-what-went-wrong/\n\nFind me:\nSubscribestar: https://www.subscribestar.com/sydney-watson\nGab: https://gab.com/sydneywatson \nFacebook: https://www.facebook.com/sydneywatsonofficial \nTwitter: https://twitter.com/sydneylwatson \nInstagram: https://www.instagram.com/sydneywatson__ \n\nSign up to my email list (I promise not to harass you haha): https://www.sydneywatson.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FJNnSlTZE9E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FJNnSlTZE9E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FJNnSlTZE9E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FJNnSlTZE9E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FJNnSlTZE9E/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sydney Watson",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-30T23:16:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Nb9CTpSsgFvr-1QJQkyQJdecrEg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xPhFM00noJM"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-23T01:23:27Z",
+        "channelId": "UCx-KWLTKlB83hDI6UKECtJQ",
+        "title": "Matt Smith, a man of many talents #shorts",
+        "description": "A new episode of House of the Dragon is streaming Sunday night on HBO via HBO Max. \n\nAbout HBO Max:\nHBO Max is WarnerBrosDiscovery’s direct-to-consumer offering with 10,000 hours of curated premium content. HBO Max offers powerhouse programming for everyone in the home, bringing together HBO, a robust slate of new original series, key third-party licensed programs and movies, and fan favorites from WarnerMedia’s rich library including Warner Bros., New Line, DC, CNN, TNT, TBS, truTV, Turner Classic Movies, Cartoon Network, Adult Swim, Crunchyroll, Rooster Teeth, Looney Tunes and more. #HBOMax #WarnerBrosDiscovery \n\nSUBSCRIBE TO HBO MAX\nhttp://bit.ly/HBOMaxYouTube\n\nGET HBO MAX\nhttps://itsh.bo/ways-to-get\n\nMORE HBO MAX\nHBO Max: https://hbom.ax/YT \nFollow HBO Max on Instagram: http://bit.ly/HBOMaxInstagram\nFollow HBO Max on TikTok: https://hbom.ax/HBOMaxTT\nFollow HBO Max on Twitter: http://bit.ly/HBOMaxTwitter \nLike HBO Max on Facebook: http://bit.ly/HBOMaxFacebook",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xPhFM00noJM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xPhFM00noJM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xPhFM00noJM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xPhFM00noJM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "HBO Max",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-23T01:23:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hyYq22s3qaE5mYcdX2keW-frSGc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bntzdxHIixE"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-21T15:23:23Z",
+        "channelId": "UCx-KWLTKlB83hDI6UKECtJQ",
+        "title": "Emma D'Arcy & Olivia Cooke Get To Know Me | House of the Dragon | HBO Max",
+        "description": "House of the Dragon stars Emma D’Arcy and Olivia Cooke get to know each other as they ask and answer a series of personal and show related questions. \n\nStream House of The Dragon on HBO Max.\n\nAbout HBO Max:\nHBO Max is WarnerBrosDiscovery’s direct-to-consumer offering with 10,000 hours of curated premium content. HBO Max offers powerhouse programming for everyone in the home, bringing together HBO, a robust slate of new original series, key third-party licensed programs and movies, and fan favorites from WarnerMedia’s rich library including Warner Bros., New Line, DC, CNN, TNT, TBS, truTV, Turner Classic Movies, Cartoon Network, Adult Swim, Crunchyroll, Rooster Teeth, Looney Tunes and more. #HBOMax #WarnerBrosDiscovery \n\nSUBSCRIBE TO HBO MAX\nhttp://bit.ly/HBOMaxYouTube\n\nGET HBO MAX\nhttps://itsh.bo/ways-to-get\n\nMORE HBO MAX\nHBO Max: https://hbom.ax/YT \nFollow HBO Max on Instagram: http://bit.ly/HBOMaxInstagram\nFollow HBO Max on TikTok: https://hbom.ax/HBOMaxTT\nFollow HBO Max on Twitter: http://bit.ly/HBOMaxTwitter \nLike HBO Max on Facebook: http://bit.ly/HBOMaxFacebook",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bntzdxHIixE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bntzdxHIixE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bntzdxHIixE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bntzdxHIixE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/bntzdxHIixE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HBO Max",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-21T15:23:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lCqfgmV6QTf23fRWgNk76blNtoE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "D7C8Pz-3IQ4"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-09T23:15:06Z",
+        "channelId": "UCCV8Mj59PZkf3ON_U8q4n7g",
+        "title": "The Last of Us Part I | Original VS Remake | Trailer Graphics Comparison | Analista De Bits",
+        "description": "Buy at Instant-Gaming through this affiliate link for any platform and you will help the channel a lot!\nhttps://www.instant-gaming.com/es/?igr=analistadebits",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/D7C8Pz-3IQ4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/D7C8Pz-3IQ4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/D7C8Pz-3IQ4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/D7C8Pz-3IQ4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/D7C8Pz-3IQ4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "ElAnalistaDeBits",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-09T23:15:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XVczdwkCYEgcELcQC-UyPJz1-y8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NzaAY0Ob-Ek"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-24T17:19:03Z",
+        "channelId": "UC5cvKVbmzNSJgM-rbtyg1lg",
+        "title": "Black Panther: Wakanda Forever | Official Teaser - EMOTIONAL REACTION!!!",
+        "description": "WOW! WE HAVE NO WORDS!! WHAT DO YOU THINK?! ARE YOU EXCITED TO SEE THIS?!\n\nORIGINAL TRAILER: https://www.youtube.com/watch?v=RlOB3UALvrQ&t\n\nWAKANDA FOREVER - 11.11.22\nWakanda Forever Prologue – New Music Releases July 25 – Pre-Save/Pre-Add Now: https://presave.umusic.com/bpwfp\n\n#WAKANDAFOREVER #MARVEL #CHADWICK",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NzaAY0Ob-Ek/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NzaAY0Ob-Ek/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NzaAY0Ob-Ek/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NzaAY0Ob-Ek/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NzaAY0Ob-Ek/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Creative Eye",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-24T17:19:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a2Azua8ELHfnsPhobcIvHe9bzD4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pVyJ7D3dnys"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-16T06:11:22Z",
+        "channelId": "UCwBV-eg1dAkzrdjqJfyEj0w",
+        "title": "NEW MOVIE TRAILERS 2022 (July)",
+        "description": "Upcoming Movies That Can Be Found In This Trailer Compilation:\n\n0:00 - NEW MOVIE TRAILERS 2022\n0:05 - Secret Headquarters Trailer (2022) Owen Wilson\n1:53 - Five Days At Memorial Trailer 2 (2022) Apple TV\n4:06 - LOTR: The Rings Of Power Trailer 2 (2022) Final\n6:27 - Hot  Seat Trailer (2022) Mel Gibson, Action\n8:00 - Orphan: First Kill Trailer (2022) Horror/Thriller\n10:10 - The Nan Movie Trailer (2022) Comedy\n11:45 - The Moderator Trailer (2022) Action\n13:05 - Prey For The Devil Trailer (2022) Horror\n15:27 - Spin Me Round Trailer (2022) Aubrey Plaza\n17:28 - Shazam 2 Trailer (2022) Teaser\n17:44 - Black Adam Trailer 2 (2022) Teaser\n18:01 - The Munsters (2022) Rob Zombie\n20:24 - CHUCKY Season 2 Trailer (2022) Teaser\n20:38 - Underground Monster Trailer (2022) Sci-Fi\n21:55 - SPAWN 2 Trailer (2022) Teaser (Thumbnail)\n24:01 - Amsterdam Trailer (2022) Christian Bale\n26:35 - Emily The Criminal Trailer (2022) Aubrey Plaza\n28:36 - Honor Society Trailer (2022)\n30:43 -  Metronomicon Trailer (2022) Digital Motion Painting \n\nNEW MOVIE TRAILERS 2022 (July)\n© 2022 \nAll audiovisual content are the © copyright of their respective owners.\n\n-------\nFor Movie News, Spoilers & Leaks:\nhttps://www.MovieGasm.com\n-------\nGuest Writers, Sponsorships, and Guest posts are welcome @ Team MG.\n- Do Follow Links allowed for quality post. Contact: Editor-In-Chief@MovieGasm.com\n-------\n#movie #trailer #movietrailers #moviegasm",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pVyJ7D3dnys/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pVyJ7D3dnys/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pVyJ7D3dnys/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pVyJ7D3dnys/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/pVyJ7D3dnys/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MovieGasm.com",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-16T06:11:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oTZbEz-ZgJPKSezyf7YC7DRRr14",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rCRCG9VkPYk"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-25T19:50:08Z",
+        "channelId": "UCIHdDJ0tjn_3j-FS7s_X1kQ",
+        "title": "Reaction to Andrew Tate’s Interview - Why Did Millions Spend 5 Hours Watching It?",
+        "description": "In today's video, Patrick Bet-David reacts to the Andrew Tate interview and discusses why all people should have a chance to be heard. \n\nCheck out the new home for all things Valuetainment! https://valuetainment.com\n\nSubscribe for weekly videos http://bit.ly/2aPEwD4 \n\nRecommended Video: \n10 Reasons To Love Capitalism: https://youtu.be/Al-B8ZMz4DM\n\nTo reach the Valuetainment team you can email: info@valuetainment.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rCRCG9VkPYk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rCRCG9VkPYk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rCRCG9VkPYk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rCRCG9VkPYk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rCRCG9VkPYk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Valuetainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-25T19:50:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_Ox2ut_Ct8WStP0tSmG06LYYXmU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "d-JNdLyAEYI"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-26T18:04:40Z",
+        "channelId": "UCAXR2zenCwvRIyQd9ydtfaA",
+        "title": "The Last of Us Trailer REACTION - HBO 2023 - Pedro Pascal",
+        "description": "The Last of Us today! Beyond The Trailer reaction & review 2023! HBO, HBO Max! Pedro Pascal is Joel! Based on the Naughty Dog video games!\nhttp://bit.ly/subscribeBTT\n\nThe Last of Us Trailer REACTION today! Beyond The Trailer host Grace Randolph's reaction & review of the official teaser trailer for The Last of Us based on the video games coming to HBO and HBO Max in 2023! Pedro Pascal is Joel, Bella Ramsey is Ellie! Share your own reaction to the official teaser trailer for The Last of Us before you see each full episode in 2023!  And be sure to make Beyond The Trailer your first stop for movie and entertainment news here on YouTube today!\n\nInteract with host & creator Grace Randolph!\nTwitter: http://bit.ly/GraceOnTwitter\n\n#TheLastOfUs #HBO #PedroPascal",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/d-JNdLyAEYI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/d-JNdLyAEYI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/d-JNdLyAEYI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beyond The Trailer",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-26T18:04:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WQ269fTWZsw0xL5dEN3EXIyAXWs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "l-bSjWqvt_E"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-24T16:19:48Z",
+        "channelId": "UCyQ6Uu4AmbB6ZS5xsnFA93w",
+        "title": "ISHOWSPEED HIGHLIGHTS IN THE SIDEMEN CHARITY MATCH",
+        "description": "#ishowspeed #viral #sidemen",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/l-bSjWqvt_E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/l-bSjWqvt_E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/l-bSjWqvt_E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/l-bSjWqvt_E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "YOURFAVORITEPLUG",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-24T16:19:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DcP8DeZGxfTxaG-AqSzszsQPJGw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2nnkF9jffdY"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-26T22:32:01Z",
+        "channelId": "UCq6VFHwMzcMXbuKyG7SQYIg",
+        "title": "Dumbest Thing I've Ever Seen",
+        "description": "This is the greatest silly mistake of All Time\nMerch https://moistglobal.com/\nI stream every day https://www.twitch.tv/moistcr1tikal",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2nnkF9jffdY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2nnkF9jffdY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2nnkF9jffdY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "penguinz0",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-26T22:32:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YpzPfZf56vL6ZrKSunvSC9kK6S4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WVkcmA7tC_g"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-26T06:44:49Z",
+        "channelId": "UCDiFRMQWpcp8_KD4vwIVicw",
+        "title": "House Of The Dragon Episode 6 FULL Breakdown and Game Of Thrones Easter Eggs",
+        "description": "House Of The Dragon Episode 6. Game Of Thrones Easter Eggs, Dance Of The Dragons, Aegon II, New Dragons, Vhagar, Ending Explained & Episode 7 ► https://bit.ly/AwesomeSubscribe\nHouse Of The Dragon Episode 7 Trailer https://www.youtube.com/watch?v=xjRA6_p7ZcI&list=PLOIeYdZ3QczxGuSDE8NtOuthqbKFChC0q&index=1\nHouse Of The Dragon Episode 5 https://www.youtube.com/watch?v=-f_lK17-088&list=PLOIeYdZ3QczxGuSDE8NtOuthqbKFChC0q&index=1\nHouse Of The Dragon Dance Of The Dragons https://www.youtube.com/watch?v=m3rV0oaKuN4&list=PLOIeYdZ3QczxGuSDE8NtOuthqbKFChC0q&index=1\nLoki Season 2 Trailer https://www.youtube.com/watch?v=E7_0PU3jkUg&list=PLOIeYdZ3QczwWT3yd94Xc6n-ooI85uV_u&index=1&t=0s\nMarvel Secret Invasion Trailer https://www.youtube.com/watch?v=Kd-2nciUU-k&list=PLOIeYdZ3QczwWT3yd94Xc6n-ooI85uV_u&index=1\nBlack Panther Wakanda Forever Trailer https://www.youtube.com/watch?v=GFVKCPnmUN8&list=PLOIeYdZ3QczwWT3yd94Xc6n-ooI85uV_u&index=1\nGuardians of the Galaxy 3 Trailer https://www.youtube.com/watch?v=WS1S8XKNCIk&list=PLOIeYdZ3QczwWT3yd94Xc6n-ooI85uV_u&index=1\nEmergency Awesome New Videos https://www.youtube.com/watch?v=FeOfhzu7ZdY&list=PLOIeYdZ3QczxQXxyV_2D8kuEs_QsuQIyJ&index=7\n\nHouse of the Dragon Episode 1 - Episode 10 Finale https://www.youtube.com/watch?v=KhqMOEzFu-Q&list=PLOIeYdZ3QczxGuSDE8NtOuthqbKFChC0q&index=1\nGame Of Thrones Episodes https://www.youtube.com/watch?v=6yt4zOmjFHs&list=PLOIeYdZ3Qczy79AfbfCgys2YwI8g6zD16&index=13\n\nCovering Full House Of the Dragon Episode 6 Breakdown. The Princess and The Queen. Game Of Thrones Easter Eggs and References Explained. Aftermath of House Of The Dragon Episode 5 Rhaenyra Wedding to Laenor Velaryon. New Dragons Vhagar, Meleys and Seasmoke Explained. Game Of Thrones Red Wedding and Joffrey Purple Wedding Easter Eggs.\n\nWhy King Viserys Targaryen is Dying. Aegon II Targaryen Explained and new scenes. Aegon II and brother Aemond Targaryen. Aegon vs Rhaenyra and Iron Throne. Daemon and Rhaenyra Explained. House Of The Dragon Episode 6 Time Jump with older Rhaenyra and Alicent actresses explained. Harrenhal Explained, Aegon and Valyria Explained.\n\nRhaenyra and Harwin Strong, Rhaenyra and Criston Cole Explained. The House of the Dragon Trailer also has footage covering  future episodes through the middle of the season including Episode 7, Episode 8, Episode 9, and Episode 10 Finale. Aegon's Conquest. New Characters, Game of Thrones History and Lore. New House of The Dragon Intro Scene, New Titles.\n\nDance of The Dragons Trailer and A Song of Ice And Fire Book Easter Eggs. Jon Snow Daenerys Targaryen Family History and Lore. George RR Martin involvement explained. Game Of Thrones, A Song of Ice And Fire Books it's based on.  And the House of the Dragon Game of Thrones Episode Timeline.\n\nBlack Panther 2 Trailer, Avengers 5 Kang Dynasty Trailer, Avengers 6 Secret Wars Trailer, Thunderbolts Trailer, Ant-Man 3 Trailer, Deadpool 3, Fantastic Four Teaser and videos from Disney Plus Day.\n\nMy House of the Dragon Episode 7 Trailer video will post next! Full House Of The Dragon Episode 7 video next sun. Rick and Morty Season 6 Episode 4 video tues!\n\nTwitch Channel https://twitch.tv/emergencyawesome\nTwitter  https://twitter.com/awesomemergency\nFacebook  https://facebook.com/emergencyawesome\nInstagram  https://instagram.com/emergencyawesome\nTumblr  https://robotchallenger.com\nMy Website https://emergencyawesome.com\n\n:: Video Playlists For Shows ::\n\nNew Emergency Awesome Videos https://www.youtube.com/playlist?list=PLOIeYdZ3QczxQXxyV_2D8kuEs_QsuQIyJ\nHouse of The Dragon Episodes https://www.youtube.com/playlist?list=PLOIeYdZ3QczxqJeNeCsF_ghizcTS9nM4X\nLoki Episodes https://www.youtube.com/playlist?list=PLOIeYdZ3Qczy8mUNqHU-35xtTd-JpJU3l\nThe Mandalorian Episodes https://www.youtube.com/playlist?list=PLOIeYdZ3QczzsN78nOjS-ABHwKaB7KONW\nGame of Thrones Episodes https://www.youtube.com/playlist?list=SPOIeYdZ3QczxGuSDE8NtOuthqbKFChC0q\nMarvel Movies and Avengers https://www.youtube.com/playlist?list=PLOIeYdZ3QczwWT3yd94Xc6n-ooI85uV_u\nRick and Morty Season 6 Episodes https://www.youtube.com/playlist?list=PLOIeYdZ3Qczyvx-lFYzOv9s6bOv7b9wYR\nAvatar The Last Airbender Episodes https://www.youtube.com/playlist?list=PLOIeYdZ3Qczx-z2jyyX4naSnE1A8d0hkC\nThe Witcher Season 3 Episodes Netflix https://www.youtube.com/playlist?list=PLOIeYdZ3QczyRsUjubTL0CQyPIu1g9OtV\nThe Boys Season 3 Episodes https://www.youtube.com/playlist?list=PLOIeYdZ3Qczw-KMQyuCrxcxV3mSQWTAdR\nSpider Man Videos https://www.youtube.com/playlist?list=PLOIeYdZ3QczzbRhRiGhj3-MaZ_24kadOy\nThe Batman and DC Movies https://www.youtube.com/playlist?list=PLOIeYdZ3QczwCLH9RIm-7ui56ameRYmdQ\nJustice League Snyder Cut Videos https://www.youtube.com/playlist?list=PLOIeYdZ3QczwCLH9RIm-7ui56ameRYmdQ\nStar Wars Movies https://www.youtube.com/playlist?list=PLOIeYdZ3QczztMg8cT1WS0P8ATv-MhUEJ\n\n\nTHANKS FOR WATCHING!!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WVkcmA7tC_g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WVkcmA7tC_g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WVkcmA7tC_g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Emergency Awesome",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-26T06:44:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SUv8b5qvcZ1xaEMaaEGxYbA57Q0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3oToves5uPg"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-11T18:10:37Z",
+        "channelId": "UCz1GPotHecuLngiLuY739QQ",
+        "title": "‘House of the Dragon’ Cast on Dragon Riding, Family Conflict, and the ‘Game of Thrones’ Legacy",
+        "description": "In creating a prequel to one of the most popular TV series of all time, ‘House of the Dragon’ producers faced an ambitious task. ‘Game of Thrones,’ based on George R.R. Martin’s ‘Song of Ice and Fire’ fantasy novel series, wowed audiences worldwide during its run, ending in 2019 after eight seasons. The prequel series tells another story of the fight for the Iron Throne: that of Targaryen vs. Targaryen and dragon vs. dragon 200 years before the events of the Emmy-winning original series. Cast members Matt Smith, Paddy Considine, Olivia Cooke, Emma D’Arcy, Fabien Frankel, Milly Alcock, Steve Toussaint, Eve Best, and Graham McTavish join co-showrunners and executive producers Ryan Condal and Miguel Sapochnik to speak with Rotten Tomatoes correspondent Nikki Novak about their epic undertaking. ‘House of the Dragon’ premieres on Sunday, August 21 on HBO.\n\n► Learn more: https://www.rottentomatoes.com/tv/house_of_the_dragon?cmp=RTTV_YouTube_Desc \n \nSubscribe to the channel and click the bell icon to be notified of new videos: http://bit.ly/2qTF6ZY  \n \n00:00 Matt Smith and Paddy Considine\n05:37 Olivia Cooke and Emma D’Arcy\n11:46 Ryan Condal and Miguel Sapochnik\n19:19 Fabien Frankel and Milly Alcock\n23:54 Steve Toussaint and Eve Best\n28:19 Graham McTavish\n\nMusic: \nCourtesy of Extreme Music \n \nWatch More: \n► Rotten Tomatoes Originals: http://bit.ly/2D3sipV  \n► Fresh New Clips: https://bit.ly/3mJePrv  \n► Hot New Trailers: http://bit.ly/2qThrsF  \n► New TV This Week: https://bit.ly/3Or3I2w  \n \nRotten Tomatoes TV delivers Fresh TV at a click! Discover the best trailers, clips, sneak peeks, and binge guides for shows you love and the upcoming series and TV movies that should be on your radar.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3oToves5uPg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3oToves5uPg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3oToves5uPg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3oToves5uPg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3oToves5uPg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Rotten Tomatoes TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-11T18:10:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_OFO8b_ZCPqMOtSx6JzdatHwVvY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LLlkID9IpAM"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-09T06:06:58Z",
+        "channelId": "UCq3hT5JPPKy87JGbDls_5BQ",
+        "title": "AVATAR 2: The Way Of Water Official Trailer Breakdown | Easter Eggs, Hidden Details And Plot Details",
+        "description": "AVATAR 2: The Way Of Water Official Trailer Breakdown | Easter Eggs, Hidden Details And Things You Missed. We breakdown the new Avatar 2 trailer from Disney. We also recap the first film, discuss the cast, plot and everything we know so far.\n\n#Avatar #TheWayOfWater #Avatar2 #Trailer #TrailerBreakdown #ThingsYouMissed #EasterEggs #Disney #AvatarTheWayOfWater\n\nIf you enjoyed this video then please subscribe to the channel https://www.youtube.com/channel/UCq3hT5JPPKy87JGbDls_5BQ?sub_confirmation=1\n\nIf You Want To Help Support The Channel So I Can Make More Videos Like This Please Donate Here:\nhttps://www.youtube.com/channel/UCq3hT5JPPKy87JGbDls_5BQ/join\n\nGet some awesome Heavy Spoilers show clothes, phonecases and accessories at - https://teespring.com/en-GB/stores/deffinitions-store\n\n*Check out our BEST new videos below*\n*Doctor Strange In The Multiverse Of Madness Ending Explained* - https://www.youtube.com/watch?v=BO8NpFbzxeI\n*Moon Knight Episode 6 Breakdown* - https://www.youtube.com/watch?v=1-t4YyXlMN0\n*Jane Foster Thor Explained* - https://www.youtube.com/watch?v=ylcSxMraeOM\n*Thor Love And Thunder Trailer Breakdown* - https://www.youtube.com/watch?v=c73h1u1Zjvo\n*Every Easter Egg In The Batman* - https://www.youtube.com/watch?v=4mDmv8I1U1Y\n*Fantastic Beasts The Secrets Of Dumbledore* - https://www.youtube.com/watch?v=b1_zVsJMBiU\n\n\n/* ----- SOCIAL MEDIA ----- */\n\nFollow Me On Social Media At:\nWebsite - https://heavyspoilers.com/\nTikTok - https://www.tiktok.com/@heavyspoilers?lang=en\nTwitter - https://twitter.com/heavyspoilers\nInstagram - https://www.instagram.com/heavyspoilers/\nFacebook - https://www.facebook.com/DeffinitionMC/\n\n\n/* ----- VIDEO INFORMATION ----- */\n\n0:00 Avatar Recap\n4:17 Avatar 2 Trailer Breakdown\n\nWelcome to the Heavy Spoilers show, I'm your host Paul and I'm blue daba dee daba die because Disney have just dropped the first trailer for Avatar 2.\n\nThe first movie released all the way back in 2009 and the several sequels that we're getting on the film have remained a closely guarded secret since then. The film was a box office phenomenon that's pretty much remained as the highest grossing film of all time for the 13 years since it's release. Avengers Endgame managed to snatch the crown back from it only for the inevitable to happen and it once more regained it's spot at the top.\n\nHowever, there hasn't really been that much hype for it and I have to admit that I wasn't that interested. I think I'd probably only seen the movie at the cinema when it released and then maybe watched it once more at home. I always remembered it being kinda mid with a heavy reliance on the 3D that kinda lost it's appeal once you removed that. However I actually went back at the weekend and rewatched the film and I have to say that I was wrong and it definitely stands on it's own two feet even without the technology behind it. The movie really captivated me and I think it stands on it's own two feet without needing to strap massive glasses onto your head sometimes over your glasses.\n\nNow I'm guessing a lot of you are in the same boat as me where you haven't watched the movie since it released so if you need a quick catch up then the next part of the video is for you. I've left timecodes below if you just wanna skip to the trailer stuff but we start off in the far distant future of 2154. The world is almost a barren wasteland due to humanity using up all of Earth's natural resources and it now looks like a night out in Glasgow.\n\nEarly on we meet Jake Sully, an ex marine who was left paralysed after a combat mission he was on went awry. Jakes brother was part of the Avatar programme which allowed someone to control a host body through their consciouness so that humans could interact with the locals on any planet they landed on by looking like them. However Jakes brother died and due to the Avatars taking genetic material from the person piloting them they needed a match which came in the form of Jake, his twin brothers twin...brother.\n\nKeep up yeah.\n\nAnyway along with the Resources Development Administration or RDA for short they headed out to the Planet Pandora. Attempting to obtain a special element called Unobtanium...which...yeah I forgot it was called that.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LLlkID9IpAM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LLlkID9IpAM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LLlkID9IpAM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LLlkID9IpAM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LLlkID9IpAM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Heavy Spoilers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-09T06:06:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GMSpnev5QC8DO5hM0HZSSGZWddU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0mv0dAwPqCs"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-30T15:48:40Z",
+        "channelId": "UC9PBzalIcEQCsiIkq36PyUA",
+        "title": "The Last of Us Part 1 - PlayStation 5 - The Digital Foundry Tech Review",
+        "description": "A contentious release for many, with Naughty Dog remaking a PlayStation 3 classic that already has an impressive PS4 Pro version that runs beautifully on PS5... so what's actually different with The Last of Us Part 1? What we're actually looking at here is a comprehensive revamp of the game's visuals and immersiveness with many intriguing changes, upgrades, revamps and improvements. John Linneman has the full story in an expansive 50-minute edit.\n\nJoin the DF Patreon for pristine video downloads, behind the scenes content, early access to DF Retro, early access to DF Direct Weekly and much, much more: https://bit.ly/3jEGjvx\n\nSubscribe for more Digital Foundry: http://bit.ly/DFSubscribe\n\nWant some DF-branded tee-shirts, mugs, hoodies or pullovers? Check out our store: https://bit.ly/2BqRTt0",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0mv0dAwPqCs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0mv0dAwPqCs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0mv0dAwPqCs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0mv0dAwPqCs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0mv0dAwPqCs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Digital Foundry",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-30T15:48:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VAfTwrZSxAE-YCYwQI00aYENM1k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PovgboSu7C8"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-18T09:10:37Z",
+        "channelId": "UCQfKpN66UN8d5Z15gFV9PGQ",
+        "title": "House of the Dragon Cast: Real-Life Partners Revealed |⭐ OSSA",
+        "description": "House of the Dragon has become one of the most anticipated series since the end of Game of Thrones. In the prequel, the creators will fully concentrate on the history of the Targaryens family, who are about to make the most terrible scandal. In the meantime, everyone is languishing in anticipation of the first episodes of the OSSA has prepared for you a piece of information about the main cast of House of the Dragon, so get ready to find out all about the actors who are going to immerse you in the atmosphere of the Game of Thrones again!\n\nWhy didn't fans envision Matt Smith as Prince Daemon, and how did he convince everyone that he was the perfect fit for the hell-raising brother Daemon? How did Emma D'Arcy conquer the creators of the series, Ryan Condal and Miguel Sapochnik, and then take her role as Princess Rhaenyra? What do we already know about King Viserys Targaryen, and what can we tell you about Paddy Considine, who will play him on screen? What else does Paddy Considine (King Viserys Targaryen) do besides acting, and why did his children not know for a long time that their dad was an actor? What do Cersei Lannister and Olivia Cooke's character Alicent Hightower have in common, who was the actress's favorite Game of Thrones character? Why would Harry Potter and Marvel fans be surprised to see Rhys Ifans as Otto Hightower, and what about Rhys' personal life? Why is Eva Best (Rhaenys Velaryon) not really called Eva, and in which films and series can you meet the actress? What was Steve Toussaint (Lord Corlys Velaryon) planning to be before he discovered acting, and why does he hide his personal life? What is known about Fabien Frankel (Ser Criston Cole), and what did Sonoya Mizuno (Mysaria) want to be in her youth?\n\nFind out all about the cast and characters of the new Dragon House series right now in this new OSSA'm video!\n\nChapters:\n00:00 - Intro\n00:29 - Paddy Considine as King Viserys Targaryen\n01:44 - Olivia Cooke as Alicent Hightower\n03:27 - Rhys Ifans as Otto Hightower\n04:36 - Eve Best as Princess Rhaenys Velaryon\n05:41 - Steve Toussaint as Lord Corlys Velaryon\n06:35 - Fabien Frankel as Ser Criston Cole\n06:59 - Sonoya Mizuno as Mysaria\n07:44 - Emma D’Arcy as Princess Rhaenyra\n08:53 - Matt Smith as Prince Daemon\n\n🎁 Join the OSSA'm Squad to get access to perks:\nhttps://www.youtube.com/channel/UCQfKpN66UN8d5Z15gFV9PGQ/join\n\n💛 OSSA on Instagram: https://www.instagram.com/ossa.tv/\n💜 OSSA on TikTok: https://www.tiktok.com/@ossa_tv\n💙 OSSA on facebook: https://www.facebook.com/OSSA-937878333055503/\n\n⭐OSSA is the best source for entertainment news about the celebrities we love.\n⭐Our YouTube channel dishes up celebrity news and gossip on the stars you admire the most. From popular TV hosts to Hollywood golden age actresses, from the royal family members to western movies acting legends.\n\nSUBSCRIBE to our channel to watch more amazing videos about celebs!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PovgboSu7C8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PovgboSu7C8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PovgboSu7C8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/PovgboSu7C8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/PovgboSu7C8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "OSSA",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-18T09:10:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UEYlQOEVErT15th40e6jLS7xGU0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "afIMsmSssw8"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-26T17:11:26Z",
+        "channelId": "UCGmnsW623G1r-Chmo5RB4Yw",
+        "title": "Did I Post This?",
+        "description": "BUY TICKETS: https://misfitsboxing.com/\nDiscord: https://discord.gg/ksi\nBUY MY SONG HERE: https://lnk.to/NotOverYet/itunes\nStream / download the remix here: https://lnk.to/NOY-Remix",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/afIMsmSssw8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/afIMsmSssw8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/afIMsmSssw8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JJ Olatunji",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-26T17:11:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3bBisNgwRfvnd-iRy0woxFWoZ-o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1O7XfVaHz9g"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-22T00:44:52Z",
+        "channelId": "UCLJvwQ-173AlbFt7zvPl-CQ",
+        "title": "FINALLY!! HBO Max THE LAST OF US FOOTAGE Reaction!",
+        "description": "We finally get a look at Pedro Pascal as the legendary Joel from The Last of Us and I gotta, say...so far he's got me convinced! Bella Ramsey as Ellie though...might need a little more convincing for me but fingers crossed HBO Max does really good job with this video game to series adaptation. We've also got an exciting cast here with Nick Offerman as Bill and Anna Torv as Tess!\n____________________\n\nReaction Gear: https://amzn.to/2QgTwk2 (affiliate)\n____________________\nOTHER REACTIONS YOU'LL ENJOY!\n• Last of Us HBO Cast | Pedro Pascal Livestream: https://www.youtube.com/watch?v=rEZy5v9fyZk\n• Black Panther: WAKANDA FOREVER Teaser Reaction: https://youtu.be/t1AjLb0FoTo\n• She-Hulk: Attorney At Law 1x1 Reaction: https://youtu.be/1bgIaqeJXzA\n• BLACK ADAM Comic Con Sneak Peak: https://youtu.be/S1O2dU2Sfkc\n• I AM GROOT Trailer: https://youtu.be/QN7lYTp40OY\n• SHAZAM! Fury of the Gods Trailer: https://youtu.be/qW-b1Aeolx8\n• John Wick Chapter 4 Trailer: https://youtu.be/zHyjjUFjbqI\n• Star Wars Jedi Survivor: https://youtu.be/Fhn6bvnC2mw \n• Ms Marvel 1x1 Reaction: https://youtu.be/iC7Gst7nyfg\n• Thor Love & Thunder Trailer Reaction: https://youtu.be/Nb8yiqkfOUg\n• She-Hulk Trailer Reaction: https://youtu.be/PIhKALA_eUM\n• Mission Impossible 7 Reaction: https://youtu.be/9M2rhufQu2I\n• Thor Love and Thunder Teaser Reaction: https://youtu.be/Fx3WDOSxmIw\n• Moon Knight 1x5 Reaction: https://youtu.be/3VANJKtLTj8\n• Ms Marvel Trailer Reaction: https://youtu.be/W5Qrjbd5JY4\n• The Batman Non-Spoiler Review: https://youtu.be/8mU5TEAx6io\n• Moon Knight Official Trailer: https://youtu.be/TCmx6zqgP34\n• Moon Knight Official Trailer Breakdown: https://youtu.be/tJnUg5WTkV0\n • Oscar Isaac & Ethan Hawke's Reaction to Moon Knight Trailer: https://youtu.be/1dMoF343kNY\n• Moon Knight 73 Easter Eggs: https://youtu.be/8F9RvbzRsjs\n• Doctor Strange Multiverse of Madness Teaser Breakdown & Easter Eggs: \nhttps://youtu.be/IHdWkWNbeNo\n• Watched DOCTOR STRANGE MULTIVERSE OF MADNESS Trailer in 0.25 Speed: https://youtu.be/5VDauxIJhBY\n• DOCTOR STRANGE 2 Scarlet Witch ERASED X-Men & Mutants?! https://youtu.be/q8SW7REkWkE\n• Spider-Man Across the Spider-Verse: https://youtu.be/sM-H9u29Vtw\n• Andrew & Tobey React to Spider-man No Way Home Trailer 2: https://youtu.be/ZHyi4OagT_Q\n• Spider-man No Way Home \"Redemption\" https://youtu.be/qCbVBfnEU1U\n• How Spider-man Far From Home Should Have Ended: https://youtu.be/4Mw7wX7SzBo\n• Eternals Movie Premiere Vlog & Non-Spoiler Review: https://youtu.be/iECkKKmDsLo\n• Avengers Gag Reel: https://youtu.be/D0QeQLzLlgc\n• Venom Pitch Meeting Reaction: https://youtu.be/XEQhPuyLPv8\n\nTrailer Link:\nhttps://www.youtube.com/watch?v=kWsY3DlLdIA\n\n___________________________________________________\n\nSOCIAL MEDIA:\n~JABS~\nYouTube, Twitter, Instagram: @GETJaby\n\n___________________________________________________\n\nSHORT FILMS PLAYLIST:\nhttps://www.youtube.com/playlist?list=PL34B19BA788E18384\n\nClick here to subscribe and know when the next video drops:\nhttp://www.youtube.com/subscription_center?add_user=jabykoay\n\nThanks for watching!!!\n\n__________________________________________________\n\nCredit of my favorite movie reviews song:\nHighlight Reel Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 3.0 License\nhttp://creativecommons.org/licenses/by/3.0/\n\nSong used during intro:\nAcid Jazz Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 3.0 License\nhttp://creativecommons.org/licenses/by/3.0/\n\nSong used during intro:\nYour Call High Quality by Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 3.0 License\nhttp://creativecommons.org/licenses/by/3.0/\n\nSong Used During Outro:\nEasy Jam Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 3.0 License\nhttp://creativecommons.org/licenses/by/3.0/\n\n#thelastofus #lastofus #tlou",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1O7XfVaHz9g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1O7XfVaHz9g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1O7XfVaHz9g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/1O7XfVaHz9g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/1O7XfVaHz9g/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "GETJaby",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-22T00:44:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-80eGyYlv7aO0oHqItGbeJ3tH_o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0YOl7SLjnpw"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-09T22:22:08Z",
+        "channelId": "UCQzdMyuz0Lf4zo4uGcEujFw",
+        "title": "House of the Dragon | S1 EP4: Inside the Episode (HBO)",
+        "description": "Ryan Condal, director Clare Kilner, Emily Carey (Alicent Hightower) and more hone in on the motivation behind Daemon’s advances towards Rhaenyra, approaching intimate scenes, and the fractures in Rhaenyra and Alicent's friendship.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0YOl7SLjnpw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0YOl7SLjnpw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0YOl7SLjnpw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0YOl7SLjnpw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0YOl7SLjnpw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "GameofThrones",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-09T22:22:08Z"
+      }
+    }
+  ]
+}

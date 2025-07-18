@@ -188,3 +188,50 @@ export default function Videos() {
   return <div>Videos {keyword ? `🔎${keyword}` : "🔥"}</div>;
 }
 ```
+
+## 12.7 비디오 목록 만들기
+
+### 내가 만든 것
+
+```jsx
+// Videos.jsx
+
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+
+export default function Videos() {
+  const KEY = process.env.REACT_APP_API_KEY;
+  const { keyword } = useParams();
+  const [videos, setVideos] = useState([]);
+  const [isLoading, setLoading] = useState(true);
+  useEffect(() => {
+    setLoading(true);
+    const response = async () => {
+      await fetch(
+        `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${keyword}&key=${KEY}`,
+        {
+          method: "GET",
+        }
+      )
+        .then((res) => res.json())
+        .then((res) => {
+          setVideos(res);
+          setLoading(false);
+        });
+    };
+    response();
+  }, [keyword]);
+  return (
+    <div>
+      Videos{" "}
+      {isLoading ? null : (
+        <div>
+          {videos.items.map((video) => {
+            return <div key={video.id.videoId}>{video.snippet.title}</div>;
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+```

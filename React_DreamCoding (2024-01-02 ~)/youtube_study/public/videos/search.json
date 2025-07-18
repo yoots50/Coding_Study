@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "KJaF0_8ioyxQlvUBPj4SfxTuV7U",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sLCOefK0WLy2mPq9tumkpnNOjVA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OTWYsXF99iY"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-24T11:30:05Z",
+        "channelId": "UCg-p3lQIqmhh7gHpyaOmOiQ",
+        "title": "British Highschoolers try School Lunch in Korea!!",
+        "description": "While visiting Korea and having the time of their lives, we also wanted to give the boys an experience of what the lives of High ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OTWYsXF99iY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OTWYsXF99iY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OTWYsXF99iY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "영국남자 Korean Englishman",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-24T11:30:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JXvNUyqCr1dsDul2c9Z1oJhO-hQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xNkMbGrUdqU"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-23T14:38:06Z",
+        "channelId": "UCpjOmwiy88a9EV3Rv8ukJgw",
+        "title": "대한민국 VS 코스타리카 : 하나은행 초청 축구국가대표팀 친선경기 하이라이트 - 2022.09.23",
+        "description": "대한민국 VS 코스타리카 : 하나은행 초청 축구국가대표팀 친선경기 하이라이트 - 2022.09.23 #대한축구협회 공식 채널 대한민국 축구 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xNkMbGrUdqU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xNkMbGrUdqU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xNkMbGrUdqU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KFATV_대한민국 축구 국가대표팀",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-23T14:38:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yteWjK0XHj2lht_OqEfGI3-pq00",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IrRFh1dLRQM"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-23T13:40:20Z",
+        "channelId": "UCjn-VbcIkAeXQKCmLJV8YwQ",
+        "title": "코스타리카전 하이라이트 | 2022 축구 국가대표 평가전 대한민국 vs 코스타리카 하이라이트 | 디지털 독점 생중계 | 쿠팡플레이 | 쿠팡",
+        "description": "대한민국 2 - 2 코스타리카 2022 축구 국가대표 평가전 하이라이트 더 보고 싶다면? 지금 쿠팡플레이에서 확인하기!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IrRFh1dLRQM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IrRFh1dLRQM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IrRFh1dLRQM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쿠팡플레이 Coupang Play",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-23T13:40:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BIEhp-00sfG0HabrdNAj83L5bYM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mPq9PAZM43M"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-23T13:57:34Z",
+        "channelId": "UCY_WNRa7H0P420fJkOFovtQ",
+        "title": "South Korea vs Costa Rica 2-2 ( Friendlies ) 23/09/2022",
+        "description": "South Korea vs Costa Rica 2-2 ( Friendlies ) 23/09/2022 1-0 H. Hee-chan 28' 2-0 J. Bennette 41' 2-1 J. Bennette 64' 2-2 S.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mPq9PAZM43M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mPq9PAZM43M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mPq9PAZM43M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DEL PIERO 10",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-23T13:57:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0TAGfPgdMc6n8zlJxeXJ-wM6CBw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ko1bqasNDls"
+      },
+      "snippet": {
+        "publishedAt": "2018-12-16T12:47:18Z",
+        "channelId": "UCFMkPeE8jiPirJMv9kttuIg",
+        "title": "South Korea 4K. Interesting Facts About South Korea",
+        "description": "South Korea is one of the most developed countries today. Lets take a tour of Korea and see modern Korean cities. Seoul, Busan ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ko1bqasNDls/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ko1bqasNDls/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ko1bqasNDls/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CoolVision",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-12-16T12:47:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-WBBf5ZALtk3cXr0FsaI5CPciVk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Y_KWTkEqG2o"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-25T20:07:51Z",
+        "channelId": "UCKJtYrlWaF3G0LIneEKoPew",
+        "title": "Night Shift With the Hardest Tournament In Korea | Uprising Korea 2022: The ATP Fight Companion",
+        "description": "TEKKEN7 #Aris #TWT2022 Aris had to tap out due to the time, check out Top 3 on https://www.twitch.tv/videos/1600697972 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Y_KWTkEqG2o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Y_KWTkEqG2o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Y_KWTkEqG2o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Avoiding The Puddle",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-25T20:07:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WMrM2ghOy8F-mEdAiP1lX0p0dek",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cXX5J3rHjHk"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-25T03:09:45Z",
+        "channelId": "UCtKKtyxOmmt60A2-pp0B1cw",
+        "title": "There are some things about Korea in the Tower of London?, Tower of London, Queen, AMWF, Couple",
+        "description": "toweroflondon #queenelizabeth #amwf.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cXX5J3rHjHk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cXX5J3rHjHk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cXX5J3rHjHk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브리티쉬 새댁 : BRITISH WIFE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-25T03:09:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VhPanuQC4a0QcSr88ZmWldTTvnE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "poHTA94-BeY"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-21T15:00:28Z",
+        "channelId": "UCn8zNIfYAQNdrFRrr8oibKw",
+        "title": "What North Korea Doesn’t Want You To See | Super Users",
+        "description": "Blogger Jacob Bogle often receives this warning, “State-sponsored actors are attempting to hack into your account.” It's all ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/poHTA94-BeY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/poHTA94-BeY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/poHTA94-BeY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "VICE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-21T15:00:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rGmZBOTYAjhr2P9WvyJ0nH9N-dU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yICHjopBVT0"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-23T13:40:34Z",
+        "channelId": "UC83jt4dlz1Gjl58fzQrrKZg",
+        "title": "US aircraft carrier arrives at naval base in South Korea&#39;s Busan",
+        "description": "US aircraft carrier USS Ronald Reagan has arrived at a naval base in South Korea's southern port city of Busan. Officials in Seoul ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yICHjopBVT0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yICHjopBVT0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yICHjopBVT0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNA",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-23T13:40:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "47b4-JmLcO11LACaUuRS7IK72K4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "udtN3czhkA8"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-24T23:00:31Z",
+        "channelId": "UCa-DreapaYm4Roo0CfUBGQg",
+        "title": "bye seoul ✨ a day of my life in korea ☕ cafe hopping in daejeon, a little trip out of seoul vlog",
+        "description": "Head to https://squarespace.com/caricakes to save 10% off your first purchase of a website or domain using code CARICAKES ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/udtN3czhkA8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/udtN3czhkA8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/udtN3czhkA8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "cari cakes",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-24T23:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "g9BlAPsYE79_C_3JgqCGB_AEpWQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3P1CnWI62Ik"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-30T05:46:28Z",
+        "channelId": "UChhOtjq-3QyyLmP2jv9amrg",
+        "title": "Feel the Rhythm of KOREA: SEOUL",
+        "description": "Enjoy wonderful attractions of South Korea with a lively, rhythmic sound! Korean Tourism Organization collaborated with an ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3P1CnWI62Ik/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3P1CnWI62Ik/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3P1CnWI62Ik/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Imagine Your Korea",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-30T05:46:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ru_YTz8hyk0F8R8wB7T09knh_jI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4uqoz7xIf6o"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-23T12:58:56Z",
+        "channelId": "UCydi_iDuARZqbC0vYpGhfsQ",
+        "title": "South Korea vs Costa Rica 2-2 Extеndеd Hіghlіghts &amp; Gоals 2022 HD",
+        "description": "Korea#CostaRica#SoonGoal.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4uqoz7xIf6o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4uqoz7xIf6o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4uqoz7xIf6o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tahahahahahbarame",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-23T12:58:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GbelpdHsiy3KHvkC7zhm4QQWdzg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UDlWtkvFYLU"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-24T23:18:39Z",
+        "channelId": "UCO0akufu9MOzyz3nvGIXAAw",
+        "title": "North Korea fires ballistic missile towards the Sea of Japan",
+        "description": "South Korea's Joint Chiefs of Staff have announced North Korea has fired an unspecified ballistic missile towards the sea of ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UDlWtkvFYLU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UDlWtkvFYLU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UDlWtkvFYLU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sky News Australia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-24T23:18:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YAH595UCgwnGgeFIzORsPSGF1Z8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eVFMDMpY36o"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-21T04:43:42Z",
+        "channelId": "UCkIom4UP_2D0DXuG92vd_KQ",
+        "title": "【Seoul】 Travel Guide - Top 10 Seoul | Korea Travel | Asia Travel | Travel at home",
+        "description": "Follow us to the most beautiful places in Seoul! Have an amazing trip at home. In this video, we'll cover more than Top ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eVFMDMpY36o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eVFMDMpY36o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eVFMDMpY36o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Before Your Trip",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-21T04:43:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rAcCkuleJdI7Kwgus5cR7yUnVyo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rXDoqD7FjQw"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-22T16:33:25Z",
+        "channelId": "UC_gUM8rL-Lrg6O3adPW9K1g",
+        "title": "WION Fineprint | North Korea denies sending arms to Russia amid Ukraine war",
+        "description": "North Korea denied sending weapons to Russia, accusing the United States of spreading rumours about such a sale to tarnish ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rXDoqD7FjQw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rXDoqD7FjQw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rXDoqD7FjQw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WION",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-22T16:33:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ybHTGc970cUMrjeGLj8LSnXOzbA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "X5q0Fd_KV1w"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-23T11:09:06Z",
+        "channelId": "UC925y3Dn61A7MBXGZJWNX9A",
+        "title": "MOVING IN KOREA (+ grocery shopping)",
+        "description": "BGM sources BGM President https://www.youtube.com/c/bgmpresident 별 헤는 다락방 Starry Attic ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/X5q0Fd_KV1w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/X5q0Fd_KV1w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/X5q0Fd_KV1w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KrisTells Vlogs",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-23T11:09:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Fko1jl6ZczSFvLyX69dkEe9R4nI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OIGBoo2QbFM"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-23T09:15:00Z",
+        "channelId": "UC91JExDefknFHQ5Lqp-g_Jg",
+        "title": "[ENG] 무슨 노래 듣고 계세요? 고려대편 What Song Are You listening To? Korea University",
+        "description": "고려대학교에서 사람들에게 물어봤습니다. \"무슨 노래 듣고 계세요?\" *본 영상에서 인터뷰에 응해주신 모든 분들께는 유튜브 촬영 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OIGBoo2QbFM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OIGBoo2QbFM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OIGBoo2QbFM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "복코s",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-23T09:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dNwGFbxrh_ZK1kG7ax2X3Byi57I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jejLBWMsyHk"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-27T13:28:04Z",
+        "channelId": "UCg-p3lQIqmhh7gHpyaOmOiQ",
+        "title": "Pack your bags boys! You&#39;re going to KOREA!!!",
+        "description": "A year after a handshake and a promise… the British High schoolers are finally coming on a School Trip to Korea! 7 students.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jejLBWMsyHk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jejLBWMsyHk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jejLBWMsyHk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "영국남자 Korean Englishman",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-27T13:28:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QUOydUauRWhJhZ_1YBT7uIpreM8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4usmpuMP7R4"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-23T18:17:27Z",
+        "channelId": "UC8p1vwvWtl6T73JiExfWs1g",
+        "title": "U.S. aircraft carrier arrives in South Korea for first time since 2018",
+        "description": "An American aircraft carrier has arrived in South Korea for the first time in almost five years. The U.S. and South Korean navies will ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4usmpuMP7R4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4usmpuMP7R4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4usmpuMP7R4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CBS News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-23T18:17:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "l8khr7AUrmkyRXFla0D5kQShrp0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "o70MzTHHNbI"
+      },
+      "snippet": {
+        "publishedAt": "2018-10-22T18:59:58Z",
+        "channelId": "UCFMkPeE8jiPirJMv9kttuIg",
+        "title": "Seoul South Korea 4K .City - Sights - People",
+        "description": "Lets take a tour to Seoul South Korea. One of the largest cities in the world renowned for its architecture, technical advancements ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/o70MzTHHNbI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/o70MzTHHNbI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/o70MzTHHNbI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CoolVision",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-10-22T18:59:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DIgkkmzdS-cUUr86ruCcsXgRG6M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "P2lhXFe8C1k"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-24T07:50:00Z",
+        "channelId": "UCxHoBXkY88Tb8z1Ssj6CWsQ",
+        "title": "যৌথ সামরিক মহড়ায় দক্ষিণ কোরিয়া-যুক্তরাষ্ট্র | USA | South Korea | North Korea | Somoy TV",
+        "description": "jointexercises #usaandsouthkorea #usa #USaircraft #southkorea #northkorea #somoytv The United States is going to conduct ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/P2lhXFe8C1k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/P2lhXFe8C1k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/P2lhXFe8C1k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SOMOY TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-24T07:50:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "N6qCh0kjYbXxXqUHIP2huk-Qync",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0YZxpzrANXM"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-09T09:33:00Z",
+        "channelId": "UCtyltqstMm6iKnkk2Y9Zt8A",
+        "title": "We went to KOREA to meet BTS 💜 Staying at KOREA&#39;S First Robot Hotel",
+        "description": "ROBOTS, TECHNOLOGY AUR BHOT SARA DHAMAAL #KOREA SUBSCRIBE!!! . . Read my travel stories: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0YZxpzrANXM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0YZxpzrANXM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0YZxpzrANXM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Wanderers Hub",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-09T09:33:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "36aoMmq9pwSNJc9UVSAIqhkwLc4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Wfu846Gb6Vk"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-23T13:30:08Z",
+        "channelId": "UCttQf1sGLn5wZaaqoHam1-w",
+        "title": "The First Ever Safari Zone in South Korea is INSANE, BECAUSE... - Pokemon GO",
+        "description": "After not being able to attend any in-person events for over 2 years, finally this is not just the first Safari Zone to happen in South ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Wfu846Gb6Vk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Wfu846Gb6Vk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Wfu846Gb6Vk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "BrandonTan91",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-23T13:30:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "m17Pfamo3CmEYNqg7OyGhtrf8Cg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gwzO4fPkDEk"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-23T14:14:56Z",
+        "channelId": "UC5klUqmlo9G8U5iaQ53ogIA",
+        "title": "Announcing my new album, and arriving in South Korea",
+        "description": "It's my first time in South Korea and I'm absolutely loving it. I also announced my new album Future eForever in this video. If you'd ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gwzO4fPkDEk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gwzO4fPkDEk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gwzO4fPkDEk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Jonathan Ogden",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-23T14:14:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3DXONSxKDfA-3Yzj9QeyGmz_fb8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "x6AHuxqt1U0"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-22T02:00:09Z",
+        "channelId": "UCNrRJm0gWx69f8Ybdnsi23A",
+        "title": "shopping in korea vlog 🇰🇷 shoes &amp; accessories haul from Gotomall Underground Shopping Center",
+        "description": "come shopping with me! shoes & accessories haul from Gotomall Underground shopping center in Seoul. 고투몰 지하 상가 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x6AHuxqt1U0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x6AHuxqt1U0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x6AHuxqt1U0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "sassyinkorea",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-22T02:00:09Z"
+      }
+    }
+  ]
+}
