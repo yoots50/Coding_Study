@@ -1,0 +1,22 @@
+.info {
+    margin: 0;
+    background-color: var(--color-bg);
+}
+
+.title {
+    font-size: 1.4rem;
+    border: solid red 1px;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+.channel {
+    display: flex;
+}
+
+.description {
+    font-size: 1.2rem;
+    padding: 10px;
+    border: solid red 1px;
+    border-radius: 15px;
+}

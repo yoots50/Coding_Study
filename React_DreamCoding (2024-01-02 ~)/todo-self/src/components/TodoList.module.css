@@ -1,0 +1,11 @@
+.todobutton {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+}
+.container {
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 15px;
+}

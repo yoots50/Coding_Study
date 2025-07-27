@@ -1,0 +1,11 @@
+{
+  "include": ["src"], // ts에서 js로 컴파일하고 싶은 모든 디렉터리를 넣음
+  "compilerOptions": {
+    "outDir": "build", // js파일이 생성될 디렉터리를 지정
+    "esModuleInterop": true, // 타입스크립트에서 CommonJS 모듈 시스템과 ECMAScript 모듈 시스템 간의 호환성을 높이기 위한 옵션
+    "target": "ES6", // 어떤 버전의 js로 ts를 컴파일할지 결정
+    "lib": ["ES6"], // 어떤 환경에서 코드가 동작할지를 알려줌으로써 자동완성기능을 활성화함
+    "strict": true, // 타입스크립트의 규칙을 강화
+    "module": "CommonJS" // 모듈 시스템 설정
+  }
+}
