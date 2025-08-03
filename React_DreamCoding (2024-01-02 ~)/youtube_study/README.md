@@ -235,3 +235,77 @@ export default function Videos() {
   );
 }
 ```
+
+### 강의에서 만든 것
+
+```jsx
+// fakeYoutubeClient.js
+import axios from "axios";
+
+export default class FakeYoutubeClient {
+  async search() {
+    return axios.get("videos/search.json");
+  }
+
+  async videos() {
+    return axios.get("videos/popular.json");
+  }
+}
+
+
+// youtubeClient.js
+import axios from "axios";
+
+export default class YoutubeClient {
+  constructor(apiClient) {
+    this.httpClient = axios.create({
+      baseURL: "https://www.googleapis.com/youtube/v3",
+      params: { key: process.env.REACT_APP_API_KEY },
+    });
+  }
+  async search(params) {
+    return this.httpClient.get("search", params);
+  }
+
+  async videos(params) {
+    return this.httpClient.get("videos", params);
+  }
+}
+
+//youtube.js
+export default class Youtube {
+  constructor(apiClient) {
+    this.apiClient = apiClient;
+  }
+  async search(keyword) {
+    return keyword ? this.#searchByKeyword(keyword) : this.#mostPopular();
+  }
+
+  async #searchByKeyword(keyword) {
+    return this.apiClient
+      .search({
+        params: {
+          part: "snippet",
+          maxResults: 25,
+          type: "video",
+          q: keyword,
+        },
+      })
+      .then((res) => res.data.items)
+      .then((items) => items.map((item) => ({ ...item, id: item.id.videoId })));
+  }
+
+  async #mostPopular() {
+    return this.apiClient
+      .videos({
+        params: {
+          part: "snippet",
+          maxResults: 25,
+          chart: "mostpopular",
+        },
+      })
+      .then((res) => res.data.items)
+      .then((items) => items.map((item) => ({ ...item, id: item.id.videoId })));
+  }
+}
+```
