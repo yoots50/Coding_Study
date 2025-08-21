@@ -456,6 +456,7 @@ export default function Videos() {
   );
 }
 ```
+
 ```css
 // Videos.css
 .videos {
@@ -495,4 +496,70 @@ export default function Videos() {
     width: 100%;
   }
 }
+```
+
+### 강의에서 만든 것
+
+```jsx
+// VideoCard.jsx
+import React from "react";
+import { formatAgo } from "../util/date";
+
+export default function VideoCard({ video }) {
+  const { title, thumbnails, channelTitle, publishedAt } = video.snippet;
+  return (
+    <li>
+      <img className="w-full" src={thumbnails.medium.url} alt={title} />
+      <div>
+        <p className="font-semibold my-2 line-clamp-2">{title}</p>
+        <p className="text-sm opacity-80">{channelTitle}</p>
+        <p className="text-sm opacity-80">{formatAgo(publishedAt)}</p>
+      </div>
+    </li>
+  );
+}
+
+// Videos.jsx
+import { useQuery } from "@tanstack/react-query";
+import { useParams } from "react-router-dom";
+import VideoCard from "../components/VideoCard";
+import { useYoutubeApi } from "../context/YoutubeApiContext";
+
+export default function Videos() {
+  const { keyword } = useParams();
+  const { youtube } = useYoutubeApi();
+  const {
+    isLoading,
+    error,
+    data: videos,
+  } = useQuery({
+    queryKey: ["videos", keyword],
+    queryFn: () => youtube.search(keyword),
+  });
+  return (
+    <>
+      <div>Videos {keyword ? `🔎${keyword}` : "🔥"}</div>
+      {isLoading && <p>Loading...</p>}
+      {error && <p>Something is wrong</p>}
+      {videos && (
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-2 gay-4">
+          {videos.map((video) => (
+            <VideoCard key={video.id} video={video} />
+          ))}
+        </ul>
+      )}
+    </>
+  );
+}
+
+// date.js
+import { format, register } from "timeago.js";
+import koLocale from "timeago.js/lib/lang/ko";
+
+register("ko", koLocale);
+
+export function formatAgo(date, lang = "en_US") {
+  return format(date, lang);
+}
+
 ```

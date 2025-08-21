@@ -2,7 +2,6 @@ import { useQuery } from "@tanstack/react-query";
 import { useParams } from "react-router-dom";
 import VideoCard from "../components/VideoCard";
 import { useYoutubeApi } from "../context/YoutubeApiContext";
-import "./Videos.css";
 
 export default function Videos() {
   const { keyword } = useParams();
@@ -16,22 +15,17 @@ export default function Videos() {
     queryFn: () => youtube.search(keyword),
   });
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection:"column",
-      }}
-    >
+    <>
       <div>Videos {keyword ? `🔎${keyword}` : "🔥"}</div>
       {isLoading && <p>Loading...</p>}
       {error && <p>Something is wrong</p>}
       {videos && (
-        <ul className="videos">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-2 gay-4">
           {videos.map((video) => (
             <VideoCard key={video.id} video={video} />
           ))}
         </ul>
       )}
-    </div>
+    </>
   );
 }
