@@ -5,7 +5,12 @@ export default class Youtube {
   async search(keyword) {
     return keyword ? this.#searchByKeyword(keyword) : this.#mostPopular();
   }
-
+  async searchByVideoId(videoId) {
+    return this.#searchByVideoId(videoId);
+  }
+  async searchByChannelId(channelId) {
+    return this.#searchByChannelId(channelId);
+  }
   async #searchByKeyword(keyword) {
     return this.apiClient
       .search({
@@ -29,7 +34,28 @@ export default class Youtube {
           chart: "mostpopular",
         },
       })
-      .then((res) => res.data.items)
-      .then((items) => items.map((item) => ({ ...item, id: item.id.videoId })));
+      .then((res) => res.data.items);
+  }
+
+  async #searchByVideoId(videoId) {
+    return this.apiClient
+      .videoIdSearch({
+        params: {
+          part: "snippet",
+          id: videoId,
+        },
+      })
+      .then((res) => res.data.items[0]);
+  }
+
+  async #searchByChannelId(channelId) {
+    return this.apiClient
+      .channelIdSearch({
+        params: {
+          part: "snippet",
+          id: channelId,
+        },
+      })
+      .then((res) => res.data.items[0]);
   }
 }

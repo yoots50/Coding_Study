@@ -563,3 +563,190 @@ export function formatAgo(date, lang = "en_US") {
 }
 
 ```
+
+## 12.17 상세페이지 만들기
+
+### 내가 만든 것
+
+```jsx
+// VideoDetail.jsx
+import { useParams } from "react-router-dom";
+import VideoPlayer from "../components/VideoPlayer";
+import { useQuery } from "@tanstack/react-query";
+import { useYoutubeApi } from "../context/YoutubeApiContext";
+import VideoCard from "../components/VideoCard";
+import { useEffect, useState } from "react";
+import VideoDescription from "../components/VideoDescription";
+
+export default function VideoDetail() {
+  const { videoId } = useParams();
+  const { youtube } = useYoutubeApi();
+  const {
+    isError,
+    isLoading,
+    data: videoData,
+  } = useQuery({
+    queryKey: ["video", videoId],
+    queryFn: () => youtube.searchByVideoId(videoId),
+  });
+  const {
+    isError2,
+    isLoading2,
+    data: videos,
+  } = useQuery({
+    queryKey: ["videos"],
+    queryFn: () => youtube.search(),
+  });
+
+  return (
+    <div className="px-20">
+      {videoData ? (
+        <div
+          className="grid grid-cols-2 gap-10"
+          style={{
+            gridTemplateColumns: "4fr 1fr",
+          }}
+        >
+          {!isLoading ? <VideoDescription videoData={videoData}/> : null}
+          <div>
+            {videos && (
+              <ul className="grid row-auto gap-y-4">
+                {videos.map((video) => {
+                  return (
+                    <div>
+                      <VideoCard key={video.id} video={video} />
+                    </div>
+                  );
+                })}
+              </ul>
+            )}
+          </div>
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
+// VideoDescription
+import { useQuery } from "@tanstack/react-query";
+import React from "react";
+import VideoPlayer from "./VideoPlayer";
+import { useParams } from "react-router-dom";
+import { useYoutubeApi } from "../context/YoutubeApiContext";
+
+export default function VideoDescription({ videoData }) {
+  const { videoId } = useParams();
+  const { channelId } = videoData.snippet;
+  const { youtube } = useYoutubeApi();
+  const {
+    isError,
+    isLoading,
+    data: channel,
+  } = useQuery({
+    queryKey: ["channel", channelId],
+    queryFn: () => youtube.searchByChannelId(channelId),
+  });
+  console.log(channel);
+  return (
+    <div
+      style={{
+        height: "70vh",
+        width: "100wh",
+      }}
+    >
+      <VideoPlayer videoId={videoId} />
+      {videoData.snippet.title}
+      {isLoading ? null : (
+        <div className="flex">
+          <img
+            className="rounded-full w-10"
+            src={channel.snippet.thumbnails.default.url}
+          />
+          {channel.snippet.title}
+        </div>
+      )}
+      <div className="text-sm opacity-80 bg-neutral-800 my-5 rounded-lg">
+        {videoData.snippet.description}
+      </div>
+    </div>
+  );
+}
+
+// VideoPlayer
+import React from "react";
+
+export default function VideoPlayer({ videoId }) {
+  return (
+    <iframe
+      id="player"
+      type="text/html"
+      src={`http://www.youtube.com/embed/${videoId}`}
+      frameBorder="0"
+      className="w-full h-full"
+    ></iframe>
+  );
+}
+
+// youtube.js
+export default class Youtube {
+  constructor(apiClient) {
+    this.apiClient = apiClient;
+  }
+  async search(keyword) {
+    return keyword ? this.#searchByKeyword(keyword) : this.#mostPopular();
+  }
+  async searchByVideoId(videoId) {
+    return this.#searchByVideoId(videoId);
+  }
+  async searchByChannelId(channelId) {
+    return this.#searchByChannelId(channelId);
+  }
+  async #searchByKeyword(keyword) {
+    return this.apiClient
+      .search({
+        params: {
+          part: "snippet",
+          maxResults: 25,
+          type: "video",
+          q: keyword,
+        },
+      })
+      .then((res) => res.data.items)
+      .then((items) => items.map((item) => ({ ...item, id: item.id.videoId })));
+  }
+
+  async #mostPopular() {
+    return this.apiClient
+      .videos({
+        params: {
+          part: "snippet",
+          maxResults: 25,
+          chart: "mostpopular",
+        },
+      })
+      .then((res) => res.data.items);
+  }
+
+  async #searchByVideoId(videoId) {
+    return this.apiClient
+      .videoIdSearch({
+        params: {
+          part: "snippet",
+          id: videoId,
+        },
+      })
+      .then((res) => res.data.items[0]);
+  }
+
+  async #searchByChannelId(channelId) {
+    return this.apiClient
+      .channelIdSearch({
+        params: {
+          part: "snippet",
+          id: channelId,
+        },
+      })
+      .then((res) => res.data.items[0]);
+  }
+}
+```
