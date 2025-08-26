@@ -1,56 +1,34 @@
-import { useParams } from "react-router-dom";
-import VideoPlayer from "../components/VideoPlayer";
-import { useQuery } from "@tanstack/react-query";
-import { useYoutubeApi } from "../context/YoutubeApiContext";
-import VideoCard from "../components/VideoCard";
-import { useEffect, useState } from "react";
-import VideoDescription from "../components/VideoDescription";
+import React from "react";
+import { useLocation } from "react-router-dom";
+import ChannelInfo from "../components/ChannelInfo";
+import RelatedVideos from "../components/RelatedVideos";
 
 export default function VideoDetail() {
-  const { videoId } = useParams();
-  const { youtube } = useYoutubeApi();
   const {
-    isError,
-    isLoading,
-    data: videoData,
-  } = useQuery({
-    queryKey: ["video", videoId],
-    queryFn: () => youtube.searchByVideoId(videoId),
-  });
-  const {
-    isError2,
-    isLoading2,
-    data: videos,
-  } = useQuery({
-    queryKey: ["videos"],
-    queryFn: () => youtube.search(),
-  });
-
+    state: { video },
+  } = useLocation();
+  const { title, channelId, channelTitle, description } = video.snippet;
   return (
-    <div className="px-20">
-      {videoData ? (
-        <div
-          className="grid grid-cols-2 gap-10"
-          style={{
-            gridTemplateColumns: "4fr 1fr",
-          }}
-        >
-          {!isLoading ? <VideoDescription videoData={videoData}/> : null}
-          <div>
-            {videos && (
-              <ul className="grid row-auto gap-y-4">
-                {videos.map((video) => {
-                  return (
-                    <div>
-                      <VideoCard key={video.id} video={video} />
-                    </div>
-                  );
-                })}
-              </ul>
-            )}
-          </div>
+    <section className="flex flex-col lg:flex-row">
+      <article className="basis-4/6">
+        <iframe
+          id="player"
+          type="text/html"
+          width="100%"
+          height="640"
+          src={`http://www.youtube.com/embed/${video.id}`}
+          frameborder="0"
+          title={title}
+        />
+        <div className="p-8">
+          <h2 className="text-xl font-bold">{title}</h2>
+          <ChannelInfo id={channelId} name={channelTitle} />
+          <pre className="whitespace-pre-wrap">{description}</pre>
         </div>
-      ) : null}
-    </div>
+      </article>
+      <section className="basis-2/6">
+        <RelatedVideos id={channelId} />
+      </section>
+    </section>
   );
 }
