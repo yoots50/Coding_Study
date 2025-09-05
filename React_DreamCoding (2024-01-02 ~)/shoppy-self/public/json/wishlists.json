@@ -1,0 +1,78 @@
+{
+  "wishlists": [
+    {
+      "uid": "123",
+      "wishlist": [
+        {
+          "id": "1",
+          "name": "Pink Hoodie",
+          "price": "100",
+          "imgURL": "/image/1.webp",
+          "options": [
+            {
+              "amount": "2",
+              "size": "75"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Black Hoodie",
+          "price": "200",
+          "imgURL": "/image/2.webp",
+          "options": [
+            {
+              "amount": "1",
+              "size": "100"
+            },
+            {
+              "amount": "3",
+              "size": "70"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "345",
+      "wishlist": [
+        {
+          "id": "3",
+          "name": "Brown Dress",
+          "price": "140",
+          "imgURL": "/image/3.webp",
+          "options": [
+            {
+              "amount": "3",
+              "size": "85"
+            },
+            {
+              "amount": "2",
+              "size": "75"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Striped Long Sleeves",
+          "price": "160",
+          "imgURL": "/image/5.webp",
+          "options": [
+            {
+              "amount": "2",
+              "size": "100"
+            },
+            {
+              "amount": "3",
+              "size": "70"
+            },
+            {
+              "amount": "4",
+              "size": "80"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

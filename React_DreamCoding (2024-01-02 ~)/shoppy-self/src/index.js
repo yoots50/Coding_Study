@@ -1,11 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import NotFound from './page/NotFound';
-import Home from './page/Home';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import NotFound from "./page/NotFound";
+import Home from "./page/Home";
+import Products from "./page/Products";
+import Wishlist from "./page/Wishlist";
+import ProductDetails from "./page/ProductDetails";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +17,9 @@ const router = createBrowserRouter([
     errorElement: <NotFound />,
     children: [
       { index: true, element: <Home /> },
+      { path: "/products", element: <Products /> },
+      { path: "/wishlist", element: <Wishlist /> },
+      { path: "/productDetails/:productId", element: <ProductDetails /> },
     ],
   },
 ]);

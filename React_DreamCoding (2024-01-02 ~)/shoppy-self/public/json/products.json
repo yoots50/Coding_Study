@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Pink Hoodie",
+      "price": "100",
+      "imgURL": "/image/1.webp",
+      "sizes": [75, 80, 85, 90, 95, 100],
+      "gender": ["남성","여성"],
+      "description": "test"
+    },
+    {
+      "id": "2",
+      "name": "Black Hoodie",
+      "price": "200",
+      "imgURL": "/image/2.webp",
+      "sizes": [75, 80, 85, 90, 95, 100],
+      "gender": ["남성", "여성"],
+      "description": "test"
+    },
+    {
+      "id": "3",
+      "name": "Brown Dress",
+      "price": "140",
+      "imgURL": "/image/3.webp",
+      "sizes": [75, 80, 85, 90, 95, 100],
+      "gender": ["여성"],
+      "description": ""
+    },
+    {
+      "id": "4",
+      "name": "Brown Pants",
+      "price": "120",
+      "imgURL": "/image/4.webp",
+      "sizes": [75, 80, 85, 90, 95, 100],
+      "gender": ["여성"],
+      "description": ""
+    },
+    {
+      "id": "5",
+      "name": "Striped Long Sleeves",
+      "price": "160",
+      "imgURL": "/image/5.webp",
+      "sizes": [75, 80, 85, 90, 95, 100],
+      "gender": ["여성"],
+      "description": ""
+    }
+  ]
+}
